@@ -3,280 +3,623 @@
         "name": "Barbie",
         "image": "https://m.media-amazon.com/images/M/MV5BODRkNDdiMjQtYmNiMC00ZjAyLTkyYzUtOTRiYzc0MjVhZjFmXkEyXkFqcGdeQXVyMTA0MDM3NDg4._V1_FMjpg_UX1080_.jpg",
         "rate": "7.1/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Egypt",
+            "United Kingdom",
+            "Italy",
+            "Philippines",
+            "Poland",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "time": "1h 54m",
+        "about": "Barbie suffers a crisis that leads her to question her world and her existence.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "PAW Patrol",
         "image": "https://m.media-amazon.com/images/M/MV5BMGI4NTNlODItMGJlZi00OTIwLTlkM2ItMWFkZjJhZDIzMDc3XkEyXkFqcGdeQXVyMTEyNzQ1MTk0._V1_FMjpg_UY3000_.jpg",
         "rate": "6.1/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "United Kingdom",
+            "Italy",
+            "United States"
+        ],
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Action"
+        ],
+        "time": "1h 32m",
+        "about": "A magical meteor crash lands in Adventure City and gives the PAW Patrol pups superpowers, transforming them into The Mighty Pups",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "The Creator",
         "image": "https://m.media-amazon.com/images/M/MV5BNDUyNTIzNDQtYTZmMi00M2FlLTgyZjUtYWViZWNhMDYzMjE4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UY2048_.jpg",
         "rate": "7.3/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Brazil",
+            "United Kingdom",
+            "Hong Kong",
+            "Italy",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "time": "2h 13m",
+        "about": "Against the backdrop of a war between humans and robots with artificial intelligence, a former soldier finds the secret weapon, a robot in the form of a young child.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Enkel für Fortgeschrittene",
         "image": "https://m.media-amazon.com/images/M/MV5BZTZiMjBmMDQtNzJmMy00YTM0LTk0ZTktNzY0MzU1NzRiMjVkXkEyXkFqcGdeQXVyMDU5MDEyMA@@._V1_FMjpg_UY2831_.jpg",
         "rate": "6.4/10",
-        "country": [],
-        "genre": [],
-        "time": "",
+        "country": [
+            "Germany"
+        ],
+        "genre": [
+            "Comedy"
+        ],
+        "time": "1h 50m",
         "about": "",
-        "language": ""
+        "language": [
+            "German"
+        ]
     },
     {
         "name": "A Haunting in Venice ",
         "image": "https://m.media-amazon.com/images/M/MV5BYmI4MzE2YjQtYWMxYi00MjBhLThhOTYtYjdiOGQ4NzE4MWViXkEyXkFqcGdeQXVyMzUwNDIxMjQ@._V1_FMjpg_UX1179_.jpg",
         "rate": "6.8/10",
         "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "genre": [
+            "Crime",
+            "Drama",
+            "Horror"
+        ],
+        "time": "1h 43m",
+        "about": "In post-World War II Venice, Poirot, now retired and living in his own exile, reluctantly attends a seance. But when one of the guests is murdered, it is up to the former detective to once again uncover the killer.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Oppenheimer ",
         "image": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UY3454_.jpg",
         "rate": "8.6/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Italy",
+            "Japan",
+            "Philippines",
+            "Poland",
+            "Thailand",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "time": "3h",
+        "about": "The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.",
+        "language": [
+            "English",
+            "Hindi"
+        ]
     },
     {
         "name": "Expend4bles",
         "image": "https://m.media-amazon.com/images/M/MV5BMDFhYjc2NmUtNDBlOC00NDE5LTk5YWYtYmM4ZmMxNTUxMGNjXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_FMjpg_UY3469_.jpg",
         "rate": "5.2/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Australia",
+            "Canada",
+            "Germany",
+            "United Kingdom",
+            "India",
+            "Italy",
+            "Mexico",
+            "San Marino",
+            " United States"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "time": "1h 43m",
+        "about": "Armed with every weapon they can get their hands on, the Expendables are the world's last line of defense and the team that gets called when all other options are off the table.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "The Nun II",
         "image": "https://m.media-amazon.com/images/M/MV5BNmE5MmM2ZGEtNTVlNC00M2Q3LTliMjMtMzg5YjUyMjliZWIzXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_FMjpg_UY2048_.jpg",
         "rate": "5.9/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "United Kingdom",
+            "India",
+            "Italy",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "time": "1h 50m",
+        "about": "1956 - France. A priest is murdered. An evil is spreading. The sequel to the worldwide smash hit follows Sister Irene as she once again comes face-to-face with Valak, the demon nun.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "The Equalizer 3",
         "image": "https://m.media-amazon.com/images/M/MV5BMzUyNTQyMWQtZTBkNS00NzdiLWI5YTItY2Q4NzhjZDk3ZmRhXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_FMjpg_UX420_.jpg",
         "rate": "7.1/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "time": "1h 49m",
+        "about": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Ponyherz",
         "image": "https://m.media-amazon.com/images/M/MV5BMGM2NzgzZmMtMDI2Ni00NThjLWI1MjMtMTk5Yzc3ZjVhZDU1XkEyXkFqcGdeQXVyMTUyOTg3MDI0._V1_FMjpg_UY4961_.jpg",
         "rate": "6.5/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Germany",
+            "Italy"
+        ],
+        "genre": [
+            "Adventure",
+            "Family"
+        ],
+        "time": "1h 33m",
+        "about": "Moving from the city to the countryside, 11-year-old Anni has a tough time settling in - until she encounters Ponyherz, an untamed horse, to whom she feels an almost magical connection. But soon after, their bond is put at risk, as some ruthless horse thieves are targeting Ponyherz's herd. Struggling in getting along with her classmates, Anni initially sets out to rescue the horses on her own - just to realize that she already has some real friends by her side.",
+        "language": [
+            "German"
+        ]
     },
     {
         "name": "Taylor Swift: The Eras Tour",
         "image": "https://m.media-amazon.com/images/M/MV5BM2E0NjA5MDktYmUxOC00NWUzLWJlNzMtZmJlNjU1ODZiMjgyXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_FMjpg_UX1000_.jpg",
         "rate": "Not Rated",
         "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "genre": [
+            "Music"
+        ],
+        "time": "2h 40m",
+        "about": "Experience the breathtaking Eras Tour concert, performed by the one and only Taylor Swift.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "When Harry Met Sally...",
         "image": "https://m.media-amazon.com/images/M/MV5BMjE0ODEwNjM2NF5BMl5BanBnXkFtZTcwMjU2Mzg3NA@@._V1_FMjpg_UX682_.jpg",
         "rate": "7.7/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "United Arab Emirates",
+            "Australia",
+            "Canada",
+            "Ecuador",
+            "Egypt",
+            "United Kingdom",
+            "Hong Kong",
+            "Indonesia",
+            "India",
+            "South Korea",
+            "Mexico",
+            "Netherlands",
+            "Philippines",
+            "Poland",
+            "Sweden",
+            "Singapore",
+            "Thailand",
+            "Turkey",
+            "Taiwan",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ],
+        "time": "1h 35m",
+        "about": "Harry and Sally have known each other for years, and are very good friends, but they fear sex would ruin the friendship.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "A Great Friend",
         "image": "https://m.media-amazon.com/images/M/MV5BOGI5MzZhMjYtNTgyMi00MjgxLTk3ODYtYjgzZTdkYzczNzY0XkEyXkFqcGdeQXVyMjAxNjM0OA@@._V1_FMjpg_UY1890_.jpg",
         "rate": "6.4/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Spain",
+            "France",
+            "Italy"
+        ],
+        "genre": [
+            "Comedy"
+        ],
+        "time": "1h 35m",
+        "about": "Vincent is a famous successful entrepreneur. One day, a car breakdown on a mountain road temporarily interrupts his frantic lifestyle. Pierre, who lives apart from the modern world in the middle of sublime nature, comes to his aid and offers him his hospitality. The meeting between these two men, who are opposites will upset their respective beliefs and they will find themselves laughing. The question is...deep down, are they really each living the lives they want to live?",
+        "language": [
+            "French"
+        ]
     },
     {
         "name": "Das fliegende Klassenzimmer",
         "image": "https://m.media-amazon.com/images/M/MV5BYzdiMDIxYjgtNjBlZi00MDFjLWE1NjMtMzE5ZWU2NjEzZWQyXkEyXkFqcGdeQXVyMDAyMjM2OQ@@._V1_FMjpg_UX595_.jpg",
         "rate": "Not Rated",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Germany"
+        ],
+        "genre": [
+            "Comedy",
+            "Family"
+        ],
+        "time": "1h 26m",
+        "about": "It tells the story of Martina. She takes up a scholarship at the Johann-Sigismund Gymnasium boarding school. She increasingly finds herself caught between the rivalry between the boarders and the 'externals' from the local village.",
+        "language": [
+            "German"
+        ]
     },
     {
         "name": "Rehragout Rendezvous",
         "image": "https://m.media-amazon.com/images/M/MV5BZTA4OGVjOGQtYTVhNS00YzQwLWE3MTItNjA0ZTU3NGRiMDM5XkEyXkFqcGdeQXVyMDU5MDEyMA@@._V1_FMjpg_UY4246_.jpg",
         "rate": "6.6/10",
-        "country": [],
-        "genre": [],
-        "time": "",
+        "country": [
+            "Germany",
+            "Italy"
+        ],
+        "genre": [
+            "Comedy",
+            "Crime"
+        ],
+        "time": "1h 37m",
         "about": "",
-        "language": ""
+        "language": [
+            "German"
+        ]
     },
     {
         "name": "Miraculous: Ladybug & Cat Noir, the Movie",
         "image": "https://m.media-amazon.com/images/M/MV5BZDBmNmZmNDMtYTI3NC00OWExLWE2NDYtMDA5ZDRhNDhjMjdkXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UY2222_.jpg",
         "rate": "6.1/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Thailand"
+        ],
+        "genre": [
+            "Animation",
+            "Action",
+            "Adventure"
+        ],
+        "time": "1h 45m",
+        "about": "Ordinary teenager Marinette's life in Paris goes superhuman when she becomes Ladybug. Bestowed with magical powers of creation, Ladybug must unite with her opposite, Cat Noir, to save Paris as a new villain unleashes chaos unto the city.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Trauzeugen",
         "image": "https://m.media-amazon.com/images/M/MV5BYzhhOTU5NWQtYjg4MS00ZmE3LWFkZWEtM2JjZTI2ODUyOGE4XkEyXkFqcGdeQXVyMDU5MDEyMA@@._V1_FMjpg_UY2519_.jpg",
         "rate": "4.3/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Germany",
+            "Italy"
+        ],
+        "genre": [
+            "Comedy"
+        ],
+        "time": "1h 39m",
+        "about": "Divorce lawyer Jakob (Edin Hasanovic) and couple therapist Marie (Almila Bagriacik) are facing a difficult test: Although the two are completely different, they are joint witnesses at the wedding of their friends Cristina Do Rego and László Branko (Breiding), which is about to be cancellation stands. You are now faced with the task of saving the wedding at all costs - but how is that supposed to work if Jakob and Marie are constantly arguing?",
+        "language": [
+            "German"
+        ]
     },
     {
         "name": "Philipp Mickenbecker: Real Life",
         "image": "https://m.media-amazon.com/images/M/MV5BMjY2NGIyZjMtYzgwYS00MzllLWIxMGUtYjg3NDg3Yjk2YWI0XkEyXkFqcGdeQXVyMTQ3NDYxMTk2._V1_FMjpg_UY4444_.jpg",
         "rate": "9.8/10",
         "country": [],
-        "genre": [],
-        "time": "",
+        "genre": [
+            "Documentary"
+        ],
+        "time": "2h 1m",
         "about": "",
-        "language": ""
+        "language": [
+            "German"
+        ]
     },
     {
         "name": "The Name of the Rose",
         "image": "https://m.media-amazon.com/images/M/MV5BZjEyZTdhNDMtMWFkMS00ZmRjLWEyNmEtZDU3MWFkNDEzMDYwXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_FMjpg_UX666_.jpg",
         "rate": "7.7/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "United Arab Emirates",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Ecuador",
+            "Egypt",
+            "United Kingdom",
+            "India",
+            "South Korea",
+            "Mexico",
+            "Netherlands",
+            "Philippines",
+            "Singapore",
+            "Turkey",
+            "United States"
+        ],
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "time": "2h 10m",
+        "about": "An intellectually nonconformist friar investigates a series of mysterious deaths in an isolated abbey.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Sophia, der Tod und ich",
         "image": "https://m.media-amazon.com/images/M/MV5BMTgzYTVmMGMtYzI3YS00YTFlLWFlYzctYzI2NDkxOGNjNGViXkEyXkFqcGdeQXVyNDk4Njk5ODU@._V1_FMjpg_UY3508_.jpg",
         "rate": "6.1/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Italy"
+        ],
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Fantasy"
+        ],
+        "time": "1h 38m",
+        "about": "A pale man knocks at Reiners door and calls himself the death. After realizing its not a joke, he travels with his ex-girlfriend to see his mother for a last time. On the road he has time to think about his life and the upcoming end.",
+        "language": [
+            "German"
+        ]
     },
     {
         "name": "Meg 2: The Trench",
         "image": "https://m.media-amazon.com/images/M/MV5BMTM2NTU1ZTktNjc4YS00NjNhLWE4NmYtOTM2YjFjOGUzNmYzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UY3000_.jpg",
         "rate": "5.1/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Australia",
+            "Canada",
+            "Egypt",
+            "United Kingdom",
+            "Israel",
+            "India",
+            "Japan",
+            "New Zealand",
+            "Thailand",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Horror"
+        ],
+        "time": "1h 56m",
+        "about": "A research team encounters multiple threats while exploring the depths of the ocean, including a malevolent mining operation.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Retribution",
         "image": "https://m.media-amazon.com/images/M/MV5BNTEwYTMyNmUtNmU5OS00NTg2LTk4ZjEtOGJlZWViMWFlMjY1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UY6000_.jpg",
         "rate": "5.3/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "France",
+            "United Kingdom",
+            "Hong Kong",
+            "India",
+            "Italy",
+            "Thailand",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "time": "1h 31m",
+        "about": "A bank executive receives a bomb threat while driving his children to school that his car will explode if they stop and get out.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
         "image": "https://m.media-amazon.com/images/M/MV5BM2JmNWEyZGYtYjVlMi00MDE2LTk5YjMtNTljOGZiY2FjZDFhXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_FMjpg_UX346_.jpg",
         "rate": "7.3/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Australia",
+            "Germany",
+            "Egypt",
+            "India",
+            "Italy",
+            "Japan",
+            "Netherlands",
+            "Poland",
+            "Thailand",
+            "South Africa"
+        ],
+        "genre": [
+            "Animation",
+            "Action",
+            "Adventure"
+        ],
+        "time": "1h 39m",
+        "about": "The film follows the Turtle brothers as they work to earn the love of New York City while facing down an army of mutants.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Universal Soldier",
         "image": "https://m.media-amazon.com/images/M/MV5BYTY4MjhhZDktZjI0Ny00NTA3LTlmM2QtOGE0ZjcwMDg2NDUyXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_FMjpg_UY2964_.jpg",
         "rate": "6.1/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "Canada",
+            "United Kingdom",
+            "Italy",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Action",
+            "Sci-Fi"
+        ],
+        "time": "1h 42m",
+        "about": "Soldiers who were killed during the Vietnam conflict are brought back to life in a top secret military experiment that creates superhuman warriors.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "The Metropolitan Opera: Nabucco",
         "image": "https://m.media-amazon.com/images/M/MV5BYzk4NjFhNDQtMTk1Yy00NjY5LThkMTQtNTM1NjQ0NjE0MGVlXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX986_.jpg",
         "rate": "Not Rated",
-        "country": [],
+        "country": [
+            "Canada"
+        ],
         "genre": [],
-        "time": "",
+        "time": "3h 5m",
         "about": "",
-        "language": ""
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Fallen Leaves",
         "image": "https://m.media-amazon.com/images/M/MV5BMDE0NjZmMjEtZDAxMS00MGE4LWFkMjgtZTg5MDUxNDRkNWM2XkEyXkFqcGdeQXVyODA0MjgyNzM@._V1_FMjpg_UY2048_.jpg",
         "rate": "7.6/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "United Arab Emirates",
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Germany",
+            "Egypt",
+            "France",
+            "United Kingdom",
+            "Hong Kong",
+            "Israel",
+            "India",
+            "Italy",
+            "Japan",
+            "Thailand",
+            "Turkey",
+            "Taiwan",
+            "United States",
+            "South Africa"
+        ],
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "time": "1h 21m",
+        "about": "Two lonely people who meet each other by chance in the Helsinki night and try to find the first love of their lives.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Past Lives",
         "image": "https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX972_.jpg",
         "rate": "8.1/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "United Arab Emirates",
+            "Brazil",
+            "Ecuador",
+            "Egypt",
+            "Spain",
+            "France",
+            "Israel",
+            "India",
+            "Italy",
+            "Mexico",
+            "Turkey",
+            "Taiwan"
+        ],
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "time": "1h 45m",
+        "about": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited for one fateful week as they confront notions of love and destiny.",
+        "language": [
+            "English"
+        ]
     },
     {
         "name": "Detective Conan: Black Iron Submarine",
         "image": "https://m.media-amazon.com/images/M/MV5BNDhhM2IwYWMtN2ExYy00ZDhhLTg2MmQtZjhmNmQxMWM3ZTg3XkEyXkFqcGdeQXVyNzEyMDQ1MDA@._V1_FMjpg_UY2048_.jpg",
         "rate": "7.5/10",
-        "country": [],
-        "genre": [],
-        "time": "",
-        "about": "",
-        "language": ""
+        "country": [
+            "United Arab Emirates",
+            "Australia",
+            "Canada",
+            "Germany",
+            "Egypt",
+            "Spain",
+            "France",
+            "United Kingdom",
+            "Hong Kong",
+            "India",
+            "Italy",
+            "Japan",
+            "Philippines",
+            "Thailand",
+            "Taiwan",
+            "United States"
+        ],
+        "genre": [
+            "Animation",
+            "Action",
+            "Adventure"
+        ],
+        "time": "1h 49m",
+        "about": "Many engineers from around the world gather at the Interpol marine facility 'Pacific Buoy' on Hachijo-jima, in the off sea south of central Tokyo Prefecture coast, to witness the launch of a new system that connects all law enforcement camera systems around the world and enables facial recognition worldwide. ",
+        "language": [
+            "Japanese"
+        ]
     }
 ]

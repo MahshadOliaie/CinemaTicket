@@ -30,8 +30,9 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  color: white;
   padding: 10px 5%;
-  background-color: rgb(176, 176, 176);
+  background-color: rgb(0, 0, 0);
   position: sticky;
   -webkit-box-shadow: 0.5px 0 0.5rem rgb(33, 33, 33);
           box-shadow: 0.5px 0 0.5rem rgb(33, 33, 33);
@@ -58,17 +59,15 @@ a {
   }
 }
 .header .nav a {
-  color: rgb(44, 44, 44);
-  -webkit-transition: 200ms;
-  transition: 200ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 .header .nav a:hover {
-  color: black;
   font-weight: 500;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-transition: 200ms;
-  transition: 200ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 .header img {
   width: 22%;
@@ -122,6 +121,7 @@ a {
 .bars {
   display: none;
   cursor: pointer;
+  fill: white;
 }
 @media screen and (max-width: 700px) {
   .bars {
@@ -145,17 +145,15 @@ a {
           justify-content: space-between;
 }
 .Menu__nav a {
-  color: rgb(44, 44, 44);
-  -webkit-transition: 200ms;
-  transition: 200ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 .Menu__nav a:hover {
-  color: black;
   font-weight: 500;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  -webkit-transition: 200ms;
-  transition: 200ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 
 .menu {

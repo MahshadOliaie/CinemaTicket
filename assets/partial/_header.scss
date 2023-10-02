@@ -91,7 +91,7 @@
 .bars{
     display: none;
     cursor: pointer;
-    fill: white;
+    fill: rgb(176, 143, 181);
 
     @media screen and (max-width:700px) {
         display: inline-block;

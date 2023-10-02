@@ -124,7 +124,7 @@ a {
 .bars {
   display: none;
   cursor: pointer;
-  fill: white;
+  fill: rgb(176, 143, 181);
 }
 @media screen and (max-width: 700px) {
   .bars {
@@ -207,9 +207,19 @@ a {
 
 .title {
   position: absolute;
-  color: rgba(255, 255, 255, 0.825);
+  color: rgba(238, 219, 251, 0.825);
   left: 10%;
   font-weight: 500;
-  bottom: 10%;
+  bottom: 15%;
   z-index: 10;
+}
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .title {
+    bottom: 30%;
+  }
 }/*# sourceMappingURL=main.min.css.map */

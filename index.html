@@ -7,7 +7,9 @@
     <title>CinemaTicket</title>
     <link rel="shortcut icon" href="./assets/images/film.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <script src="./assets/js/main.js" defer></script>
+
 </head>
 
 <body>
@@ -20,25 +22,122 @@
         </div>
         <div class="login"><a href="#" id="login">Log In</a>
             <a href="#" id="signup">Sign Up</a>
-            <svg xmlns="http://www.w3.org/2000/svg" class="bars" height="1em" onclick="showbar()" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" class="bars" height="1em" onclick="showbar()"
+                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z">
+                </path>
             </svg>
         </div>
 
 
         <div class="menu dnone">
-        <div class="Menu__nav">
-            <a href="#">Home</a>
-            <a href="#">My Tickets</a>
-            <a href="#">Cinema</a>
-        </div>
-        <div class="login"><a href="#" id="Menu__login">Log In</a>
-            <a href="#" id="Menu__signup">Sign Up</a>
-        </div>
+            <div class="Menu__nav">
+                <a href="#">Home</a>
+                <a href="#">My Tickets</a>
+                <a href="#">Cinema</a>
+            </div>
+            <div class="login"><a href="#" id="Menu__login">Log In</a>
+                <a href="#" id="Menu__signup">Sign Up</a>
+            </div>
 
         </div>
 
     </header>
+
+
+
+
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="layer"></div>
+                <h2 class="title">Barbie</h2>
+                <video width="100%" height="100%" autoplay muted>
+                    <source
+                        src="https://imdb-video.media-imdb.com/vi945734681/1434659607842-pgv4ql-1685031364799.mp4?Expires=1696321143&Signature=JbOYmPu4aydUhrStH7cWFt1uK1mJjRwE~pKmjvtkemaRu6DIHSjVW3EaOKuAhjjDV4Y3wxjmHJPX~kEd0JE4MCokqyhjYrrdnNuZzlM-uhhHGFdAPYylX810W7oLCS1sWoqvefesERFwJhTQBMppgnUVDW2LSlBmeJV6mFZQmpZ6tIt4wsbBnib-~f6OUkLHBeQm3G0W0dIoB5qYzUiMyPa~vpzUNP-71u6DK97z-4ADiNV4uVbHKaxkkfxRu0IARj5NlLGSAUTaNZjOcsHU3bhVPjO2hCKr~KBkhZN0Qf1aZX2mSb3iDlNmuOt8yaLCutxLUqif8rrSwH-5vV0HMg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+                        type="video/mp4">
+                </video>
+            </div>
+            <div class="swiper-slide">
+
+                <div class="swiper-slide">
+                    <div class="layer"></div>
+                    <h2 class="title">PAW Patrol: The Mighty Movie</h2><video width="100%" height="100%" autoplay muted>
+                        <source
+                            src="https://imdb-video.media-imdb.com/vi3310339097/1434659607842-pgv4ql-1686579071573.mp4?Expires=1696322043&Signature=MGPvQDt5BzsOYuCGcL28oMsGEXR4VJLtrsQDBQDozwA0YLcAm7E82NwU~4Eq3MedgczpkCgAFpjOH~Ro~H44VdJD~fe2ATN6mva-2eeGZ25fvFUKExlEPMcieIKJ5VF6Qn5xgLlt6utMGC5vbjt14Whe4O7~H2X-xKZp2oUY78h8Jm03VUjfzpVWu~7FgEVzjutNqYTyiNnACdEc2~~vckt69MkfEoZzD0sklSYM2c27iW34GoJSkiKRpypOI2uichQH4k7jwx1A-FQkjPcqsH5VuOFVoFyUWvWZcfhsXVDQZGEc6qkTNvP1OuI3coTb1JWmZZ9OKVBrNr7OWaOyJg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+                            type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-slide">
+
+                <div class="swiper-slide">
+                    <div class="layer"></div>
+                    <h2 class="title">A Haunting in Venice</h2><video width="100%" height="100%" autoplay muted>
+                        <source
+                            src="https://imdb-video.media-imdb.com/vi1670760217/1434659607842-pgv4ql-1689772608918.mp4?Expires=1696322576&Signature=s5Vx1Dyfqzjde-x0Zvs5~trhno0230Wm3GDhy8Z51K6lyuZv-h3DpCPkmpw1FqlJsXRarqHFFcw-2VP9tiIYR2aL-fmi1EyCFZYqdEBkkey4fgFQ-xW5eghCihKyDAyVei55UCrkZ3F2UTZf5tKypF84I8JKjgR6AofW~dTx8RHBnYjDUrElZAEWiiC9HRUediKDf0R-rCDC09aLgAxyYaAPY5hrSmi8~~B3laoAdldoM~mLlTYUKhnRY6EneHbARCE~voeMXzNdywAeX0eLy~vkMaxVEj0Bti7ZOKczCb4N-PlV3HAPKp-YEnOfdiS6KV2J58IsR8gFi5uR8aiK-Q__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+                            type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-slide">
+
+                <div class="swiper-slide">
+                    <div class="layer"></div>
+                    <h2 class="title">The Nun II</h1><video width="100%" height="100%" autoplay muted>
+                        <source
+                            src="https://imdb-video.media-imdb.com/vi2879899417/1434659607842-pgv4ql-1688664610527.mp4?Expires=1696322150&Signature=I1DDXEZlB~ql-oe~T0FO3zQdoygYNyq3du417sCIKHzhU3NoTGzzi6II8TBwSgRV4hG3hdVtW6Tok-BlGg8nR~K-oQx9~Syeac5j7Lp1zE10Prgdtnw4UYguVeeK64havxZJdhzn20iRXDEIR9nNDgoweTDLf6QBmvbvzvIIOG17DFTqbK5ZeTPhVYq20yWwZ6tlsZJTbUW5QNQI42mN-pnpTB9NEsArSyJaE~j~YDmqEq98EFn-km~8krRyJUuvWsEha0HPdmCm0icFKhSMEFHh05ReEvY6GekRa-Z8aA19GunFjKO6MMnR4c879gViv-ZnNQ~9dSPMXb~ZEqIX3g__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+                            type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-slide">
+
+                <div class="swiper-slide">
+                    <div class="layer"></div>
+                    <h2 class="title">Meg 2: The Trench</h2><video width="100%" height="100%" autoplay muted>
+                        <source
+                            src="https://imdb-video.media-imdb.com/vi292209689/1434659607842-pgv4ql-1683583655894.mp4?Expires=1696322264&Signature=CkaB3XioIzkxMoS0ixq-whr-rHtKkwez1bqBzgrOFfgsMq5wOURkJqzfq3r6JI3hnmlYXpj5QUOWFcPcD3X~WxNbgI36Z7jUZeAnKgrqKbVVlcRiPCRXWiPTxRZxC-LPHAkXADgM7kunwn7f6gMCKVEONEYPqw6cWZIeLrLEHIOhF4bYt516bKjWfbs2T3iPT5ZZZVvaVBgHot7us-qa-nPfzhoPhqo~YbRJh49tMoQJ2CqanriMzmc~U1BupFdWKbSXnjTgetDLg-1g5-e8yLffH~p1Q7dPhxD6sraVEHMzU7O8di7JDaahHLSdlkhl2uymsvkX1e13ws3SOa5CDg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA"
+                            type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next" style="color: rgb(168, 39, 254); text-shadow: 1px 1px 1rem black;"></div>
+        <div class="swiper-button-prev" style="color: rgb(168, 39, 254); text-shadow: 1px 1px 1rem black;"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+
+
+    <!----------------------------------------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 15000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>

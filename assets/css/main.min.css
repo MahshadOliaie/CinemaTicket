@@ -224,16 +224,38 @@ a {
     bottom: 30%;
   }
 }
+.title h2 {
+  margin-bottom: 10px;
+}
 
-.drama {
+.book {
+  border: 1px solid;
+  padding: 10px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+@media screen and (max-width: 700px) {
+  .book {
+    font-size: 10px;
+    padding: 7px;
+  }
+}
+.book:hover {
+  background-color: rgba(238, 219, 251, 0.532);
+  color: rgb(15, 15, 15);
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.genre {
   color: rgb(255, 255, 255);
-  padding: 2% 5%;
+  padding: 5% 9% 2% 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -242,45 +264,46 @@ a {
   margin-top: 50px;
   gap: 2%;
 }
-.drama__title {
+.genre__title {
   max-width: 25%;
   width: 25%;
 }
 @media screen and (max-width: 560px) {
-  .drama__title {
+  .genre__title {
     font-size: small;
   }
 }
 @media screen and (max-width: 450px) {
-  .drama__title {
+  .genre__title {
     width: 30%;
   }
 }
 @media screen and (max-width: 450px) {
-  .drama__title h2 {
+  .genre__title h2 {
     font-size: 16px;
   }
 }
-.drama__title a {
+.genre__title a {
+  color: rgb(204, 169, 204);
   -webkit-transition: 400ms;
   transition: 400ms;
 }
 @media screen and (max-width: 450px) {
-  .drama__title a {
+  .genre__title a {
     font-size: 10px;
   }
 }
-.drama__title a:hover {
+.genre__title a:hover {
   color: rgb(168, 98, 168);
   text-decoration: underline;
   -webkit-transition: 400ms;
   transition: 400ms;
 }
-.drama__title p {
+.genre__title p {
   font-size: 12px;
 }
 @media screen and (max-width: 450px) {
-  .drama__title p {
+  .genre__title p {
     font-size: 8px;
   }
 }
@@ -295,7 +318,7 @@ a {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: 5%;
+  gap: 6%;
   overflow-x: scroll;
   width: 60%;
 }
@@ -320,4 +343,30 @@ a {
     font-size: 10px;
     margin-top: 5px;
   }
+}
+
+.drama {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, black), to(rgb(52, 19, 52)));
+  background: linear-gradient(180deg, black 80%, rgb(52, 19, 52));
+  padding-bottom: 10%;
+}
+
+.action {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  padding: 10% 6% 2% 9%;
+  margin-top: 0;
+  background-color: rgb(52, 19, 52);
+  position: relative;
+}
+.action .genre__title {
+  margin-right: 20px;
+}
+
+.comedy {
+  padding-top: 10%;
+  margin-top: 0;
+  background-color: rgb(52, 19, 52);
 }/*# sourceMappingURL=main.min.css.map */

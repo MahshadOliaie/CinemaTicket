@@ -24,12 +24,12 @@ function renderHome(data, genre) {
 
 
     if (genre == "Drama") {
-       dramaSection.innerHTML=template
+        dramaSection.innerHTML = template
     }
     if (genre == "Action") {
-      
+        ActionSection.innerHTML = template
     }
     if (genre == "Comedy") {
-       
+        comedySection.innerHTML = template
     }
 }

@@ -8,4 +8,8 @@ function showbar(){
 
 
 
-window.addEventListener("load", getDrama)
+window.addEventListener("load", function(){
+    getDrama();
+    getAction();
+    getComedy()
+})

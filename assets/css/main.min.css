@@ -39,7 +39,7 @@ a {
   top: 0;
   -webkit-box-shadow: 0.5px 0 0.5rem rgb(33, 33, 33);
           box-shadow: 0.5px 0 0.5rem rgb(33, 33, 33);
-  z-index: 10000;
+  z-index: 10000000;
 }
 .header div {
   -webkit-box-flex: 1;
@@ -369,4 +369,10 @@ a {
   padding-top: 10%;
   margin-top: 0;
   background-color: rgb(52, 19, 52);
+}
+
+.footer {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(52, 19, 52)), color-stop(90%, black));
+  background: linear-gradient(180deg, rgb(52, 19, 52), black 90%);
 }/*# sourceMappingURL=main.min.css.map */

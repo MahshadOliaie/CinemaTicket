@@ -1,19 +1,8 @@
 
 
-function getDrama(){
-    fetch("assets/movies.json")
-    .then(res=> res.json())
-    .then(data=> renderHome(data,"Drama"))
-}
 
-function getAction(){
+function getMovies(filter , genre = null) {
     fetch("assets/movies.json")
-    .then(res=> res.json())
-    .then(data=> renderHome(data,"Action"))
-}
-
-function getComedy(){
-    fetch("assets/movies.json")
-    .then(res=> res.json())
-    .then(data=> renderHome(data,"Comedy"))
+        .then(res => res.json())
+        .then(data => renderMovies(data, genre , filter))
 }

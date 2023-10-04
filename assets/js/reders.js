@@ -40,9 +40,9 @@ function renderMovies(data, genre, filter) {
     if (genre) {
         renderHome(data, genre)
     } else {
-        let template = data.map(item => {
+        let template = data.map((item , index) => {
             return ` <div>
-            <div class="hoverLayer"><img src="${item.image}" alt=""></div>
+            <div class="hoverLayer" onclick="getOneMovie(${index})"><img src="${item.image}" alt=""></div>
             <div>
             <h4>${item.name}</h4>
             <p class="genreName">${item.genre[0]}</p>

@@ -17,3 +17,6 @@ window.addEventListener("load", function () {
     getMovies(null, "Action");
     getMovies(null, "Comedy");
 })
+
+
+

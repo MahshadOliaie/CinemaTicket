@@ -1,0 +1,85 @@
+
+
+.about{
+    display: flex;
+    align-items: flex-start;
+    padding: 5%;
+    gap: 4%;
+    color: white;
+
+    @media screen and (max-width:900px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__poster{
+        width: 45%;
+        max-width: 500px;
+        margin-bottom: 5%;
+
+        & img{
+            width: 100%;
+        }
+    }
+
+    &__text{
+
+
+        @media screen and (max-width:900px) {
+           text-align: center;
+        }
+
+        &__title{
+            margin-top: 0;
+            color: rgb(179, 89, 179);
+            font-size: 40px;
+
+            @media screen and (max-width:400px) {
+               font-size: 30px;
+            }
+        }
+
+        &__genres{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0 5%;
+
+            &__genre{
+                border: 1px solid;
+                padding: 10px;
+                background-color: rgb(77, 8, 77);
+                border-radius: 50px;
+            }
+
+        }
+
+        &__time{
+            & span{
+                font-weight: 900;
+                color: rgb(209, 172, 226);
+                font-size: large;
+            }
+        }
+
+        &__description{
+            padding: 20px 0;
+        }
+
+        &__countries{
+            & span{
+                font-weight: 900;
+                color: rgb(209, 172, 226);
+                font-size: large;
+            }
+        }
+
+        &__lang{
+            & span{
+                font-weight: 900;
+                color: rgb(209, 172, 226);
+                font-size: large;
+            }
+        }
+    }
+}

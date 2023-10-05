@@ -30,13 +30,17 @@
         }
 
         &__title{
-            margin-top: 0;
+            margin: 0;
             color: rgb(179, 89, 179);
             font-size: 40px;
 
             @media screen and (max-width:400px) {
                font-size: 30px;
             }
+        }
+
+        &__director{
+            color: rgba(231, 201, 248, 0.9);
         }
 
         &__genres{
@@ -81,5 +85,62 @@
                 font-size: large;
             }
         }
+    }
+}
+
+
+.bookBtn{
+    color: rgb(249, 225, 249);
+    background-color: purple;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid;
+    transition: 400ms;
+    margin: auto;
+    box-shadow: 1px 1px .5rem rgb(249, 225, 249);
+
+
+    &:hover{
+        transform: scale(1.01);
+        box-shadow: 1px 1px 1.5rem rgb(249, 225, 249);
+        transition: 400ms;
+    }
+}
+
+
+
+.gallery{
+    width: 100%;
+    display: flex;
+    padding: 0 6%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 100px;
+    gap: 4%;
+
+    & .img{
+      width: 200px;
+      height: 200px;
+      flex-shrink: 0;
+      background-size: cover;
+      background-position: center;
+
+      @media screen and (min-width:800px) {
+        width: 300px;
+        height: 300px;
+      }
+    }
+}
+
+
+.videoBox{
+    max-height: 80vh;
+
+    & video{
+        max-height: 80vh;
     }
 }

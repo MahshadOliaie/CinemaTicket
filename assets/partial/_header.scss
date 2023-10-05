@@ -5,7 +5,7 @@
     justify-content: space-between;
     color: white;
     padding: 10px 5%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(29, 0, 29, 0.932);
     position: sticky;
     top: 0;
     box-shadow: .5px 0 .5rem rgb(33, 33, 33);
@@ -46,7 +46,6 @@
 #login,
 #signup {
     border: 1px solid;
-    background-color: rgb(0, 0, 0);
     color: rgb(169, 73, 169);
     padding: 10px;
 
@@ -63,7 +62,6 @@
 
 #Menu__login , #Menu__signup{
     border: 1px solid;
-    background-color: rgb(0, 0, 0);
     color: rgb(169, 73, 169);
     padding: 5px 10px;
     width: 80px;

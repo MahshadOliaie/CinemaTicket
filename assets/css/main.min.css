@@ -34,7 +34,7 @@ a {
           justify-content: space-between;
   color: white;
   padding: 10px 5%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(29, 0, 29, 0.932);
   position: sticky;
   top: 0;
   -webkit-box-shadow: 0.5px 0 0.5rem rgb(33, 33, 33);
@@ -81,7 +81,6 @@ a {
 #login,
 #signup {
   border: 1px solid;
-  background-color: rgb(0, 0, 0);
   color: rgb(169, 73, 169);
   padding: 10px;
 }
@@ -99,7 +98,6 @@ a {
 
 #Menu__login, #Menu__signup {
   border: 1px solid;
-  background-color: rgb(0, 0, 0);
   color: rgb(169, 73, 169);
   padding: 5px 10px;
   width: 80px;
@@ -482,7 +480,7 @@ a {
   }
 }
 .about__text__title {
-  margin-top: 0;
+  margin: 0;
   color: rgb(179, 89, 179);
   font-size: 40px;
 }
@@ -490,6 +488,9 @@ a {
   .about__text__title {
     font-size: 30px;
   }
+}
+.about__text__director {
+  color: rgba(231, 201, 248, 0.9);
 }
 .about__text__genres {
   display: -webkit-box;
@@ -525,4 +526,68 @@ a {
   font-weight: 900;
   color: rgb(209, 172, 226);
   font-size: large;
+}
+
+.bookBtn {
+  color: rgb(249, 225, 249);
+  background-color: purple;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  margin: auto;
+  -webkit-box-shadow: 1px 1px 0.5rem rgb(249, 225, 249);
+          box-shadow: 1px 1px 0.5rem rgb(249, 225, 249);
+}
+.bookBtn:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 1px 1px 1.5rem rgb(249, 225, 249);
+          box-shadow: 1px 1px 1.5rem rgb(249, 225, 249);
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.gallery {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 6%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-top: 100px;
+  gap: 4%;
+}
+.gallery .img {
+  width: 200px;
+  height: 200px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (min-width: 800px) {
+  .gallery .img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.videoBox {
+  max-height: 80vh;
+}
+.videoBox video {
+  max-height: 80vh;
 }/*# sourceMappingURL=main.min.css.map */

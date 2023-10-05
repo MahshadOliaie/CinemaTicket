@@ -31,7 +31,8 @@
             "https://m.media-amazon.com/images/M/MV5BZTU3Y2RmM2MtNzdmYS00Mzc3LWJkYzUtYjU2OTQ2NDliZjdmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZjU3ZWFhMDYtMDUyZi00YzA2LThmNmUtNmJlMGE3MGM3ZDczXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZTM1NzVmZTItYmU0Zi00ODVmLWE4MWQtZTFlMzRiZmMxN2I4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UY720_.jpg"
-        ]
+        ],
+        "director": "Greta Gerwig"
     },
     {
         "id": 2,
@@ -60,7 +61,8 @@
             "https://m.media-amazon.com/images/M/MV5BY2QyM2M3OTItODJhYS00NGY5LWIwNjQtNWY3OWY2YzdiOWNiXkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BYjk2ZmU4NTAtMGRlNi00MjY4LWE1ZmQtYzc0NTI2MmUxZjBmXkEyXkFqcGdeQXVyMTU2Mjc3MTEw._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZmVkMDJmNWUtZGFlYi00NGYyLTk4OGUtZDA4YzhmNDgzMDU2XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UY720_.jpg"
-        ]
+        ],
+        "director": "Cal Brunker"
     },
     {
         "id": 3,
@@ -93,7 +95,8 @@
             "https://m.media-amazon.com/images/M/MV5BOGNkNDFiZmMtNWRkZS00M2I1LThjOTEtYzk3Y2U5MTc3MDg0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BOWQzMWE5ZTEtZmVjYy00ZTVkLWJjNWYtMTAyM2ViODZmZTYzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BYmZmOWI2NTYtZjA5OS00MWMxLWE0OTktZTg4M2M3Y2YyOWRmXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Gareth Edwards"
     },
     {
         "id": 4,
@@ -112,7 +115,8 @@
         "language": [
             "German"
         ],
-        "moreImages": []
+        "moreImages": [],
+        "director": "Wolfgang Groos"
     },
     {
         "id": 5,
@@ -138,7 +142,8 @@
             "https://m.media-amazon.com/images/M/MV5BNTM0YTY3YzctNTU5Yi00ODBmLWI5ZTUtNGVkYTc3ZTkyOTNkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BNzE3MGI3OWEtNzYxOS00MDBlLTk0MDUtYTQ2ZjgxNzlkOWYzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BNzMwYThkOWEtNTNjOC00YjFlLThlMTEtYWFjODVjMGYxZDNkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Kenneth Branagh"
     },
     {
         "id": 6,
@@ -173,7 +178,8 @@
             "https://m.media-amazon.com/images/M/MV5BYmI1NjRjY2ItZTViMi00M2JlLWFmYWMtODc1YWJiYmY1NzA0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BYzYxM2Y1NGYtMjM0Zi00ODk2LWFhMmItNzdlYzA1ZTZkMTAyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZjRjZjNhNjYtZDFjMy00OTkyLThiZjEtNGFjYjliNGM4MGRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Christopher Nolan"
     },
     {
         "id": 7,
@@ -211,7 +217,8 @@
             "https://m.media-amazon.com/images/M/MV5BYjgyMmJmZTAtMzkxMS00ZjY4LTk3MjgtYjlmZTc1ZjhlMzM0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BYzUzNTI1NjktM2E5ZS00ODQyLWI4NWItYzA4ZTQ0NjIxYTc4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZGY1ODMxOWMtYTBmNC00ZmQ5LWJiZWQtOTZhYjUyZWY4NWE1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Scott Waugh"
     },
     {
         "id": 8,
@@ -247,7 +254,8 @@
             "https://m.media-amazon.com/images/M/MV5BY2IxZmJiY2QtNTBlNC00ZmJiLThhNjgtNTA2MDZhMzE0NmNkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BY2UyMTNkYmYtNTQ5Mi00NDk3LWJjMmEtMDg0ZTgyYjJiODAzXkEyXkFqcGdeQXVyMTAzODc1NjE0._V1_FMjpg_UX640_.jpg",
             "https://m.media-amazon.com/images/M/MV5BYTBjODg0ZDEtMTdlNS00ODhhLTlkN2MtNTZjYjhkMTc3YjJkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UY720_.jpg"
-        ]
+        ],
+        "director": "Michael Chaves"
     },
     {
         "id": 9,
@@ -272,7 +280,8 @@
         "moreImages": [
             "https://m.media-amazon.com/images/M/MV5BMzVjM2I2NmUtOTNjNi00NjhhLTgzZGUtYjRlYTE2ZTM0MGFiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1280_.jpg",
             "https://m.media-amazon.com/images/M/MV5BN2M0ZWJhZGYtMmJhOS00YmRjLTliOWMtOGNjODY4NzA1MjkxXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_FMjpg_UX310_.jpg"
-        ]
+        ],
+        "director": "Antoine Fuqua"
     },
     {
         "id": 10,
@@ -293,7 +302,8 @@
         "language": [
             "German"
         ],
-        "moreImages": []
+        "moreImages": [],
+        "director": "Markus Dietrich"
     },
     {
         "id": 11,
@@ -315,7 +325,8 @@
             "https://m.media-amazon.com/images/M/MV5BYmE0NmNlMGItZTYzZi00ODhiLTk3ZmUtNWYwNjJjY2JjMmViXkEyXkFqcGdeQXVyMTYyNjM0ODUz._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZTMwYjY3MmItYzM4Mi00NDcwLWFlZjEtOTc4NGQ2ZWY1NGFhXkEyXkFqcGdeQXVyNzQyNjgxNDE@._V1_FMjpg_UY720_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZWM1MDJiNjUtOGRhMC00MTAwLWEyMTEtNzczMGFmNDk0YjQ5XkEyXkFqcGdeQXVyMTMxODA4Njgx._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Sam Wrench"
     },
     {
         "id": 12,
@@ -364,7 +375,8 @@
             "https://m.media-amazon.com/images/M/MV5BMTg2NTk4MzIyMl5BMl5BanBnXkFtZTcwOTIzMDY5NA@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BMjA0MTc5NDkzOV5BMl5BanBnXkFtZTcwNTU2Mzg3NA@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BMjEyNzAwMDc3NF5BMl5BanBnXkFtZTcwMzU2Mzg3NA@@._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Rob Reiner"
     },
     {
         "id": 13,
@@ -385,7 +397,8 @@
         "language": [
             "French"
         ],
-        "moreImages": []
+        "moreImages": [],
+        "director": "Éric Besnard"
     },
     {
         "id": 14,
@@ -413,7 +426,8 @@
             "https://m.media-amazon.com/images/M/MV5BYjNmNmY3Y2QtMjRhOC00MTljLWFlYjQtMWY3MjY3N2UwMDIwXkEyXkFqcGdeQXVyNTY0NzUxNA@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZmMyY2ZhNGMtZjc2Ni00Y2I1LWIxZmYtM2ZjMjg2YTU3NjExXkEyXkFqcGdeQXVyNTY0NzUxNA@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZmNjNzNlZmEtNTUwYi00MGI1LWIzMDUtYzQzNGRmOWY0YWY4XkEyXkFqcGdeQXVyNTY0NzUxNA@@._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Carolina Hellsgård"
     },
     {
         "id": 15,
@@ -434,7 +448,8 @@
         "language": [
             "German"
         ],
-        "moreImages": []
+        "moreImages": [],
+        "director": "Ed Herzog"
     },
     {
         "id": 16,
@@ -463,7 +478,8 @@
             "https://m.media-amazon.com/images/M/MV5BYWE5MjAxZDctZDUxYi00MDg0LThlNjQtZDZmMjdiZWJkOWJmXkEyXkFqcGdeQXVyMTU4MDIyNDgy._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZjhiNDgwMzctM2ExMi00YmM1LWEzMmYtZjMxMWU1YzkxNmUwXkEyXkFqcGdeQXVyMTU4MDIyNDgy._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BN2E0MjEzZTYtYjJjNC00YjdiLTk1ODAtN2Y3ODkwZjA1MzU5XkEyXkFqcGdeQXVyMTU3NDg0OTgx._V1_FMjpg_UY1896_.jpg"
-        ]
+        ],
+        "director": "Jeremy Zag"
     },
     {
         "id": 17,
@@ -483,7 +499,8 @@
         "language": [
             "German"
         ],
-        "moreImages": []
+        "moreImages": [],
+        "director": "Lena May Graf"
     },
     {
         "id": 18,
@@ -500,7 +517,8 @@
         "language": [
             "German"
         ],
-        "moreImages": []
+        "moreImages": [],
+        "director": "Lukas Augustin"
     },
     {
         "id": 19,
@@ -541,7 +559,8 @@
             "https://m.media-amazon.com/images/M/MV5BNDU3NTMxMjU0N15BMl5BanBnXkFtZTcwMjU4NjEzMQ@@._V1_FMjpg_UX450_.jpg",
             "https://m.media-amazon.com/images/M/MV5BOWUwMGVlNjAtNjFjYS00ZDQ4LWFjM2UtNmZmNDdiZmQ1NTljXkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_FMjpg_UX1000_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZjljMTBjMjctMjkyZS00MGQyLWJiZGYtYWY1Y2IyYmJlYWJjXkEyXkFqcGdeQXVyNzEyNjUwMTA@._V1_FMjpg_UY4127_.jpg"
-        ]
+        ],
+        "director": "Jean-Jacques Annaud"
     },
     {
         "id": 20,
@@ -562,7 +581,8 @@
         "language": [
             "German"
         ],
-        "moreImages": []
+        "moreImages": [],
+        "director": "Charly Hübner"
     },
     {
         "id": 21,
@@ -601,7 +621,8 @@
             "https://m.media-amazon.com/images/M/MV5BY2JlNjU2YmItZTg1Yi00YTIwLTgwNGUtNjNhYzEzYzVkZjA4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZWJiNDdkYmQtNzYxZi00NDY5LTg2N2MtZGQ0NjhlZDgyYjcyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZmNjMzkyODYtZjgxNS00ZDJiLTlmYzQtZGEzNDdmOTZjZTIxXkEyXkFqcGdeQXVyMTU0ODY5OTAx._V1_FMjpg_UX500_.jpg"
-        ]
+        ],
+        "director": "Ben Wheatley"
     },
     {
         "id": 22,
@@ -635,7 +656,8 @@
             "https://m.media-amazon.com/images/M/MV5BOGE0NzJlOWMtOGVhYi00YjU0LWE0OWUtZjQ0MTUyOWEwYjRkXkEyXkFqcGdeQXVyNDc5NDc2Nw@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BOTQxYTkwNGQtY2JlYy00NWI1LWFjZTEtYzhjZjA1Y2IxNTQwXkEyXkFqcGdeQXVyMTAxNzkxNDAx._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BYWQzYTM3MDktMzZmYi00NTNjLWE2NTItMGIyNjE4NDQ1Y2MwXkEyXkFqcGdeQXVyMTAxNzkxNDAx._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Nimród Antal"
     },
     {
         "id": 23,
@@ -675,7 +697,8 @@
             "https://m.media-amazon.com/images/M/MV5BYjQ2ZTRjOGQtMTdhNy00NTg4LWJiYWItODQ5ZDE1OWY4MWM5XkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZTYwMDIxZWYtZWQyOS00NjdmLTg5NDYtNzc4ZTJjY2U1ZDRlXkEyXkFqcGdeQXVyMTA5ODEyNTc5._V1_FMjpg_UX600_.jpg",
             ""
-        ]
+        ],
+        "director": "Jeff Rowe"
     },
     {
         "id": 24,
@@ -705,7 +728,8 @@
             "https://m.media-amazon.com/images/M/MV5BMjE1MDI4NDc4M15BMl5BanBnXkFtZTcwODAwNTgwMw@@._V1_FMjpg_UY720_.jpg",
             "https://m.media-amazon.com/images/M/MV5BMjI3ODM4Nzc2M15BMl5BanBnXkFtZTcwNjEwNTgwMw@@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BMjY1ODE3ODY1M15BMl5BanBnXkFtZTcwMzIwNTgwMw@@._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Roland Emmerich"
     },
     {
         "id": 25,
@@ -722,7 +746,8 @@
         "language": [
             "English"
         ],
-        "moreImages": []
+        "moreImages": [],
+        "director": ""
     },
     {
         "id": 26,
@@ -762,7 +787,8 @@
         "moreImages": [
             "https://m.media-amazon.com/images/M/MV5BN2YwNGU4NjktMTU3Zi00ODc2LWJiMTktZmY0NzM4OTE1YTdjXkEyXkFqcGdeQXVyNjE4OTE4OTc@._V1_FMjpg_UX600_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZmY5Y2Y2YjEtOGRiYS00NTQ4LWFhNTYtNTA3NjFmYjUxMzRjXkEyXkFqcGdeQXVyNDY5NTQyMDU@._V1_FMjpg_UX828_.jpg"
-        ]
+        ],
+        "director": "Aki Kaurismäki"
     },
     {
         "id": 27,
@@ -799,7 +825,8 @@
             "https://m.media-amazon.com/images/M/MV5BNzhlYTkzNzktY2FlYS00NjY4LWI2NjEtZDAyOGIxMjYzODQ3XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1280_.jpg",
             "https://m.media-amazon.com/images/M/MV5BOGEzZTZjOGYtODFlMC00YWFiLThhMjgtMzA0ZjMyYWI4ZmZmXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UY720_.jpg",
             "https://m.media-amazon.com/images/M/MV5BNjQ3ZTAwYWItMjc1OC00OTgzLWEwYjktZDlhYjM3MWE1NzQ0XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX600_.jpg"
-        ]
+        ],
+        "director": "Celine Song"
     },
     {
         "id": 28,
@@ -844,6 +871,7 @@
             "https://m.media-amazon.com/images/M/MV5BNjg4ODJmYTYtOTA4NS00Yzk4LThiNzMtOGMyMjAyNzFmNWM0XkEyXkFqcGdeQXVyNzEyMDQ1MDA@._V1_FMjpg_UX640_.jpg",
             "https://m.media-amazon.com/images/M/MV5BYTQ4MWNmNGUtMGM3OS00YzY1LWFhOWQtMTA4NGQ3Mjg0ZjI0XkEyXkFqcGdeQXVyNzEyMDQ1MDA@._V1_FMjpg_UX640_.jpg",
             "https://m.media-amazon.com/images/M/MV5BZGM4ZjQ1NzktYTllYS00ODkwLWFmZDEtY2EwYmNkOTcyNmU0XkEyXkFqcGdeQXVyNzEyMDQ1MDA@._V1_FMjpg_UX640_.jpg"
-        ]
+        ],
+        "director": "Yuzuru Tachikawa"
     }
 ]

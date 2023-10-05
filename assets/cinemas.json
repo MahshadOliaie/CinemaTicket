@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "name": "Landmark Cinemas Kanata",
+        "rate": "4.4",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipOu9HPL_AOPLXbCGXugSftP8iDH2XhLBlFprzgu=s1360-w1360-h1020",
+        "address": "801 Kanata Ave., Kanata, ON K2T 1E7, Canada",
+        "geo": {
+            "lat": "45.30902447150343",
+            "lng": "-75.90972478580572"
+        },
+        "phone": ["+1 613-599-5500"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Cineplex Cinemas Courtney Park",
+        "rate": "4.3",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipPQtHcVAEbnJPdSyHioYoHYGWFf4Q50myHDJmJR=s1360-w1360-h1020",
+        "address": "801 Kanata Ave., Kanata, ON K2T 1E7, Canada",
+        "geo": {
+            "lat": "43.638231808161066",
+            "lng": "-79.69077003713289"
+        },
+        "phone": ["+1 613-599-5500"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Film.Ca Cinemas",
+        "rate": "4.7",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipMvGg0sA3VhoAHr-Wbin4VhsK2SCkLQN_kijMII=s1360-w1360-h1020",
+        "address": "171 Speers Rd, Oakville, ON L6K 3W8, Canada",
+        "geo": {
+            "lat": "43.446052112721155",
+            "lng": "-79.68929774555802"
+        },
+        "phone": ["+1 905-338-6322"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Albion Cinemas",
+        "rate": "3.6",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipPcrnEsD4SL0nJps9TGnaf3kSS-QzQGT_X6zHFw=s1360-w1360-h1020",
+        "address": "1530 Albion Rd, Etobicoke, ON M9V 1B4, Canada",
+        "geo": {
+            "lat": "43.741938586624926",
+            "lng": "-79.58504559757425"
+        },
+        "phone": ["+1 416-742-1765"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Cineplex Odeon International Village Cinemas",
+        "rate": "4.1",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipNuYSfW1t7SbeCg8dIRTt34MeX05lXXjBI4jbfq=s1360-w1360-h1020",
+        "address": "88 W Pender St 3rd floor, Vancouver, BC V6B 6N9, Canada",
+        "geo": {
+            "lat": "49.28084759769977",
+            "lng": "-123.10735481797035"
+        },
+        "phone": ["+1 604-806-0799"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Lux Cinema",
+        "rate": "4.3",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipNEGt_yZBGdpCv0KGCCc9q6RYpNFaYhW1sDtxSr=s1360-w1360-h1020",
+        "address": "229 Bear St, Banff, AB T1L 1H8, Canada",
+        "geo": {
+            "lat": "51.17838677681094",
+            "lng": "-115.57291667595096"
+        },
+        "phone": ["+1 403-762-8612"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Metro Cinema",
+        "rate": "4.6",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipPN07V7mQE4ZrSddmMqxT4xxFAE2c84XeFxMl_p=s1360-w1360-h1020",
+        "address": "8712 109 St NW, Edmonton, AB T6G 1E9, Canada",
+        "geo": {
+            "lat": "53.523154541963905",
+            "lng": "-113.5123066235818"
+        },
+        "phone": ["+1 780-425-9212"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "SilverCity St. Vital Cinemas",
+        "rate": "4,3",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipOUEWLY0keTlUaE3wXnnR5C7xHCekgiiEkvma82=s1360-w1360-h1020",
+        "address": "1225 St Mary's Rd #160, Winnipeg, MB R2M 5E5, Canada",
+        "geo": {
+            "lat": "49.82780006891205",
+            "lng": "-97.10952461013072"
+        },
+        "phone": ["+1 204-256-3901"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Globe Cinema",
+        "rate": "4.4",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipPUD5vHFK2F_hXJyVMH09RG3jRwZzQuSLChA0fT=s1360-w1360-h1020",
+        "address": "617 8 Ave SW, Calgary, AB T2P 1H1, Canada",
+        "geo": {
+            "lat": "51.045836904255154",
+            "lng": "-114.07499831585238"
+        },
+        "phone": ["+1 403-262-3309"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Rocky Cinemas",
+        "rate": "4.7",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipOWE-OIoh7wUmEcHoH__WM9RlGuG6KDVjD1OtuW=s1360-w1360-h1020",
+        "address": "4827 50 St, Rocky Mountain House, AB T4T 1A8, Canada",
+        "geo": {
+            "lat": "52.37236840602597",
+            "lng": "-114.91875523387668"
+        },
+        "phone": ["+1 403-845-7015"],
+        "movies": [
+            {
+                "movieid": "",
+                "name": "",
+                "showTime": [
+                    {
+                        "time": "",
+                        "roomNumber": "",
+                        "totalSeats": "",
+                        "reservedSeats": [],
+                        "emptySeats": []
+                    }
+                ]
+            }
+        ]
+    }
+]

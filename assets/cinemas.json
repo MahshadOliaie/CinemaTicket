@@ -9,18 +9,55 @@
             "lat": "45.30902447150343",
             "lng": "-75.90972478580572"
         },
-        "phone": ["+1 613-599-5500"],
+        "phone": [
+            "+1 613-599-5500"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "1",
+                "name": "Barbie",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "10 AM",
+                        "roomNumber": "A",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "2",
+                "name": "PAW Patrol",
+                "showTime": [
+                    {
+                        "time": "12 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 40,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "4",
+                "name": "Enkel für Fortgeschrittene",
+                "showTime": [
+                    {
+                        "time": "1 PM",
+                        "roomNumber": "c",
+                        "totalSeats": 20,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "10",
+                "name": "Ponyherz",
+                "showTime": [
+                    {
+                        "time": "4 PM",
+                        "roomNumber": "C",
+                        "totalSeats": 20,
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -36,18 +73,55 @@
             "lat": "43.638231808161066",
             "lng": "-79.69077003713289"
         },
-        "phone": ["+1 613-599-5500"],
+        "phone": [
+            "+1 613-599-5500"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "3",
+                "name": "The Creator",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "6 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "7",
+                "name": "Expend4bles",
+                "showTime": [
+                    {
+                        "time": "3 PM",
+                        "roomNumber": "C",
+                        "totalSeats": 20,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "5",
+                "name": "A Haunting in Venice",
+                "showTime": [
+                    {
+                        "time": "8 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "6",
+                "name": "Oppenheimer",
+                "showTime": [
+                    {
+                        "time": "4 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 40,
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -63,18 +137,67 @@
             "lat": "43.446052112721155",
             "lng": "-79.68929774555802"
         },
-        "phone": ["+1 905-338-6322"],
+        "phone": [
+            "+1 905-338-6322"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "7",
+                "name": "Expend4bles",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "9 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 30,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "1",
+                "name": "Barbie",
+                "showTime": [
+                    {
+                        "time": "6 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "8",
+                "name": "The Nun II",
+                "showTime": [
+                    {
+                        "time": "10 PM",
+                        "roomNumber": "C",
+                        "totalSeats": 20,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "9",
+                "name": "The Equalizer 3",
+                "showTime": [
+                    {
+                        "time": "5 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 30,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "10",
+                "name": "Ponyherz",
+                "showTime": [
+                    {
+                        "time": "10 AM",
+                        "roomNumber": "B",
+                        "totalSeats": 50,
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -90,18 +213,67 @@
             "lat": "43.741938586624926",
             "lng": "-79.58504559757425"
         },
-        "phone": ["+1 416-742-1765"],
+        "phone": [
+            "+1 416-742-1765"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "1",
+                "name": "Barbie",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "8 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "11",
+                "name": "Taylor Swift: The Eras Tour",
+                "showTime": [
+                    {
+                        "time": "10 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 60,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "12",
+                "name": "When Harry Met Sally...",
+                "showTime": [
+                    {
+                        "time": "4 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "13",
+                "name": "A Great Friend",
+                "showTime": [
+                    {
+                        "time": "11 AM",
+                        "roomNumber": "B",
+                        "totalSeats": 60,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "14",
+                "name": "Das fliegende Klassenzimmer",
+                "showTime": [
+                    {
+                        "time": "2 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 50,
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -117,18 +289,67 @@
             "lat": "49.28084759769977",
             "lng": "-123.10735481797035"
         },
-        "phone": ["+1 604-806-0799"],
+        "phone": [
+            "+1 604-806-0799"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "5",
+                "name": "A Haunting in Venice",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "10 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "15",
+                "name": "Rehragout Rendezvous",
+                "showTime": [
+                    {
+                        "time": "5 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 60,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "16",
+                "name": "Miraculous: Ladybug & Cat Noir, the Movie",
+                "showTime": [
+                    {
+                        "time": "6 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "17",
+                "name": "Trauzeugen",
+                "showTime": [
+                    {
+                        "time": "2 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 60,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "8",
+                "name": "The Nun II",
+                "showTime": [
+                    {
+                        "time": "9 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 60,
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -144,18 +365,67 @@
             "lat": "51.17838677681094",
             "lng": "-115.57291667595096"
         },
-        "phone": ["+1 403-762-8612"],
+        "phone": [
+            "+1 403-762-8612"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "19",
+                "name": "The Name of the Rose",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "8 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 40,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "20",
+                "name": "Sophia, der Tod und ich",
+                "showTime": [
+                    {
+                        "time": "5 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 40,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "21",
+                "name": "Meg 2: The Trench",
+                "showTime": [
+                    {
+                        "time": "8 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 50,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "22",
+                "name": "Retribution",
+                "showTime": [
+                    {
+                        "time": "6 PM",
+                        "roomNumber": "C",
+                        "totalSeats": 20,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "23",
+                "name": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+                "showTime": [
+                    {
+                        "time": "2 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 40,
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -171,7 +441,9 @@
             "lat": "53.523154541963905",
             "lng": "-113.5123066235818"
         },
-        "phone": ["+1 780-425-9212"],
+        "phone": [
+            "+1 780-425-9212"
+        ],
         "movies": [
             {
                 "movieid": "",
@@ -181,8 +453,7 @@
                         "time": "",
                         "roomNumber": "",
                         "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -198,18 +469,67 @@
             "lat": "49.82780006891205",
             "lng": "-97.10952461013072"
         },
-        "phone": ["+1 204-256-3901"],
+        "phone": [
+            "+1 204-256-3901"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "24",
+                "name": "Universal Soldier",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "8 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 40,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "26",
+                "name": "Fallen Leaves",
+                "showTime": [
+                    {
+                        "time": "9 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 30,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "27",
+                "name": "Past Lives",
+                "showTime": [
+                    {
+                        "time": "11 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 40,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "2",
+                "name": "PAW Patrol",
+                "showTime": [
+                    {
+                        "time": "3 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 30,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "1",
+                "name": "Barbie",
+                "showTime": [
+                    {
+                        "time": "2 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 40,
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -225,18 +545,67 @@
             "lat": "51.045836904255154",
             "lng": "-114.07499831585238"
         },
-        "phone": ["+1 403-262-3309"],
+        "phone": [
+            "+1 403-262-3309"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "5",
+                "name": "A Haunting in Venice",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "7 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 30,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "9",
+                "name": "The Equalizer 3",
+                "showTime": [
+                    {
+                        "time": "10 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 30,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "6",
+                "name": "Oppenheimer",
+                "showTime": [
+                    {
+                        "time": "5 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 20,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "15",
+                "name": "Rehragout Rendezvous",
+                "showTime": [
+                    {
+                        "time": "11 AM",
+                        "roomNumber": "B",
+                        "totalSeats": 20,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "7",
+                "name": "Expend4bles",
+                "showTime": [
+                    {
+                        "time": "9 PM",
+                        "roomNumber": "B",
+                        "totalSeats": "20",
+                        "reservedSeats": []
                     }
                 ]
             }
@@ -252,18 +621,67 @@
             "lat": "52.37236840602597",
             "lng": "-114.91875523387668"
         },
-        "phone": ["+1 403-845-7015"],
+        "phone": [
+            "+1 403-845-7015"
+        ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "21",
+                "name": "Meg 2: The Trench",
                 "showTime": [
                     {
-                        "time": "",
-                        "roomNumber": "",
-                        "totalSeats": "",
-                        "reservedSeats": [],
-                        "emptySeats": []
+                        "time": "7 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 30,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "24",
+                "name": "Universal Soldier",
+                "showTime": [
+                    {
+                        "time": "10 PM",
+                        "roomNumber": "A",
+                        "totalSeats": 30,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "26",
+                "name": "Fallen Leaves",
+                "showTime": [
+                    {
+                        "time": "5 PM",
+                        "roomNumber": "B",
+                        "totalSeats": 20,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "3",
+                "name": "The Creator",
+                "showTime": [
+                    {
+                        "time": "11 AM",
+                        "roomNumber": "B",
+                        "totalSeats": 20,
+                        "reservedSeats": []
+                    }
+                ]
+            },
+            {
+                "movieid": "7",
+                "name": "Expend4bles",
+                "showTime": [
+                    {
+                        "time": "9 PM",
+                        "roomNumber": "B",
+                        "totalSeats": "20",
+                        "reservedSeats": []
                     }
                 ]
             }

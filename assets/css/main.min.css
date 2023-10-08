@@ -590,4 +590,67 @@ a {
 }
 .videoBox video {
   max-height: 80vh;
+}
+
+.cinemas {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  color: white;
+  padding: 5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 950px) {
+  .cinemas {
+    grid-template-columns: 1fr;
+  }
+}
+.cinemas__cinema {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5%;
+  max-height: 300px;
+  border-bottom: 1px solid rgb(154, 102, 154);
+  cursor: pointer;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+@media screen and (max-width: 500px) {
+  .cinemas__cinema {
+    font-size: small;
+  }
+}
+.cinemas__cinema:hover {
+  background-color: rgb(38, 4, 46);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+.cinemas__cinema:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+.cinemas__cinema__img {
+  width: 50%;
+  margin-right: 2%;
+  overflow: hidden;
+}
+.cinemas__cinema__img img {
+  width: 100%;
+  max-height: 100%;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+.cinemas__cinema__about {
+  padding: 2%;
+  width: 60%;
+}
+.cinemas__cinema__about__title {
+  margin-top: 0;
+}
+.cinemas__cinema__about__address {
+  color: rgb(210, 210, 210);
 }/*# sourceMappingURL=main.min.css.map */

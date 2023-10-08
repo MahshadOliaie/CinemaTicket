@@ -55,6 +55,7 @@ function renderMovies(data, genre, filter) {
 
         root.innerHTML = template;
         root.classList.add("allMovies")
+        root.classList.remove("cinemas")
         document.querySelector(".menu").classList.add("dnone");
     }
 }
@@ -92,6 +93,7 @@ function renderCinemas(data) {
 
     root.innerHTML = template;
     root.classList.add("cinemas");
+    root.classList.remove("allMovies")
     document.querySelector(".menu").classList.add("dnone");
 
 }

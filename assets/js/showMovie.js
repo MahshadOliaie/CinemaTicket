@@ -56,6 +56,7 @@ function showMovie(movie) {
     }).join("");
     document.querySelector(".gallery").innerHTML = imagesTemplate;
 
-    root.classList.remove("allMovies")
+    root.classList.remove("allMovies");
+    root.classList.remove("cinemas")
 
 }

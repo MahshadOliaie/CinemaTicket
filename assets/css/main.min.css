@@ -692,6 +692,17 @@ a {
   background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(90%, rgb(50, 0, 50)), to(black));
   background: linear-gradient(180deg, black, rgb(50, 0, 50) 90%, black);
 }
+@media screen and (max-width: 600px) {
+  .showCinema__about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .showCinema__about__img {
   width: 40%;
   max-width: 400px;
@@ -702,6 +713,11 @@ a {
 }
 .showCinema__about__text {
   width: 60%;
+}
+@media screen and (max-width: 600px) {
+  .showCinema__about__text {
+    text-align: center;
+  }
 }
 .showCinema__about__text__address {
   color: rgba(255, 255, 255, 0.74);

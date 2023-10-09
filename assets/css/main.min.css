@@ -326,6 +326,7 @@ a {
   min-width: 70px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  cursor: pointer;
 }
 .movies__movie__img {
   width: 100%;
@@ -653,4 +654,115 @@ a {
 }
 .cinemas__cinema__about__address {
   color: rgb(210, 210, 210);
+}
+
+.showCinema {
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .showCinema {
+    font-size: small;
+  }
+}
+.showCinema__map {
+  width: 100%;
+  height: 40vh;
+}
+.showCinema__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 15% 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(90%, rgb(50, 0, 50)), to(black));
+  background: linear-gradient(180deg, black, rgb(50, 0, 50) 90%, black);
+}
+.showCinema__about__img {
+  width: 40%;
+  max-width: 400px;
+  margin-right: 5%;
+}
+.showCinema__about__img img {
+  width: 100%;
+}
+.showCinema__about__text {
+  width: 60%;
+}
+.showCinema__about__text__address {
+  color: rgba(255, 255, 255, 0.74);
+}
+.showCinema__about__text__address span {
+  font-weight: 700;
+  color: white;
+}
+.showCinema__about__text__phone {
+  font-weight: 700;
+  color: white;
+}
+.showCinema__about__text__phone span {
+  color: rgba(219, 185, 223, 0.809);
+  font-weight: 500;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  cursor: pointer;
+}
+.showCinema__about__text__phone span:hover {
+  text-decoration: underline;
+  color: rgba(218, 163, 224, 0.809);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.showCinema__movies {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  row-gap: 5%;
+  padding: 5%;
+}
+@media screen and (max-width: 800px) {
+  .showCinema__movies {
+    grid-template-columns: repeat(2, 40%);
+  }
+}
+.showCinema__movies img {
+  width: 100%;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+.showCinema__movies__movie {
+  cursor: pointer;
+}
+.showCinema__movies__movie:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+.showCinema__movies__movie__img {
+  overflow: hidden;
+}
+.showCinema__movies__movie__about {
+  text-align: center;
+}
+.showCinema__movies__movie__about__name {
+  font-size: 25px;
+  margin: 10px;
+  color: rgb(208, 169, 222);
+}
+.showCinema__movies__movie__about__time {
+  font-weight: 900;
+  font-size: large;
+  margin: 0;
+}
+
+.seperator {
+  text-align: center;
+  color: rgb(152, 85, 152);
+  text-shadow: 1px 1px 1rem rgba(255, 255, 255, 0.636);
 }/*# sourceMappingURL=main.min.css.map */

@@ -1,7 +1,7 @@
 
 
 function showMovie(movie) {
-    const { name, id, image, trailer, director, time, rate, about, country, language, genre, moreImages } = movie;
+    const { name, id, image, trailer, director, time, rate, about, country, language, genre, moreImages } = movie[0];
 
     let countriesStr = country.join(", ");
     let languageStr = language.join(", ")
@@ -44,7 +44,6 @@ function showMovie(movie) {
     </div>
 </section>`;
 
-
     let genreTemplate = genre.map(item => {
         return `<p class="about__text__genres__genre">${item}</p>`
     }).join("");
@@ -57,6 +56,7 @@ function showMovie(movie) {
     document.querySelector(".gallery").innerHTML = imagesTemplate;
 
     root.classList.remove("allMovies");
-    root.classList.remove("cinemas")
+    root.classList.remove("cinemas");
+    root.classList.remove("showCinema")
 
 }

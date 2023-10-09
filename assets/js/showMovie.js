@@ -39,7 +39,7 @@ function showMovie(movie) {
             <p class="about__text__lang"><span>Language:</span> ${languageStr}</p>
         </div>
     </div>
-    <div class="bookBtn">LET'S FIND CINEMA</div>
+    <div class="bookBtn" onclick="getCinemas(${id})">LET'S FIND CINEMA</div>
     <div class="gallery">
     </div>
 </section>`;

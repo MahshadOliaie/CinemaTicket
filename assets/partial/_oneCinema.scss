@@ -102,6 +102,10 @@
                     font-size: 25px;
                     margin: 10px;
                     color: rgb(208, 169, 222);
+
+                    @media screen and (max-width: 950px) {
+                        font-size: 18px;
+                    }
                 }
 
                 &__time{

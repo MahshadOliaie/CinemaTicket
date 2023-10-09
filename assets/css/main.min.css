@@ -330,9 +330,18 @@ a {
 }
 .movies__movie__img {
   width: 100%;
+  overflow: hidden;
+}
+.movies__movie__img:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 .movies__movie__img img {
   width: 100%;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 .movies__movie__name {
   margin-top: 10px;
@@ -754,6 +763,11 @@ a {
   font-size: 25px;
   margin: 10px;
   color: rgb(208, 169, 222);
+}
+@media screen and (max-width: 950px) {
+  .showCinema__movies__movie__about__name {
+    font-size: 18px;
+  }
 }
 .showCinema__movies__movie__about__time {
   font-weight: 900;

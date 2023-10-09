@@ -29,6 +29,10 @@
             max-width: 400px;
             margin-right: 5%;
 
+            @media screen and (max-width:600px) {
+                width: 100%;
+            }
+
             & img {
                 width: 100%;
             }
@@ -39,9 +43,10 @@
             width: 60%;
 
             @media screen and (max-width:600px) {
-               text-align: center;
+                text-align: center;
+                width: 100%;
             }
-    
+
 
             &__address {
 
@@ -97,19 +102,19 @@
         &__movie {
             cursor: pointer;
 
-            &:hover img{
+            &:hover img {
                 transform: scale(1.05);
                 transition: 500ms;
             }
 
-            &__img{
+            &__img {
                 overflow: hidden;
             }
 
             &__about {
                 text-align: center;
 
-                &__name{
+                &__name {
                     font-size: 25px;
                     margin: 10px;
                     color: rgb(208, 169, 222);
@@ -119,7 +124,7 @@
                     }
                 }
 
-                &__time{
+                &__time {
                     font-weight: 900;
                     font-size: large;
                     margin: 0;

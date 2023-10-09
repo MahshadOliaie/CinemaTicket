@@ -708,6 +708,11 @@ a {
   max-width: 400px;
   margin-right: 5%;
 }
+@media screen and (max-width: 600px) {
+  .showCinema__about__img {
+    width: 100%;
+  }
+}
 .showCinema__about__img img {
   width: 100%;
 }
@@ -717,6 +722,7 @@ a {
 @media screen and (max-width: 600px) {
   .showCinema__about__text {
     text-align: center;
+    width: 100%;
   }
 }
 .showCinema__about__text__address {

@@ -688,6 +688,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(90%, rgb(50, 0, 50)), to(black));
   background: linear-gradient(180deg, black, rgb(50, 0, 50) 90%, black);
 }

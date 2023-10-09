@@ -390,12 +390,42 @@
         ],
         "movies": [
             {
-                "movieid": "",
-                "name": "",
+                "movieid": "1",
+                "name": "Barbie",
                 "showTime": {
-                    "time": "",
-                    "roomNumber": "",
-                    "totalSeats": "",
+                    "time": "8 PM",
+                    "roomNumber": "A",
+                    "totalSeats": 40,
+                    "reservedSeats": []
+                }
+            },
+            {
+                "movieid": "26",
+                "name": "Fallen Leaves",
+                "showTime": {
+                    "time": "9 PM",
+                    "roomNumber": "B",
+                    "totalSeats": 30,
+                    "reservedSeats": []
+                }
+            },
+            {
+                "movieid": "27",
+                "name": "Past Lives",
+                "showTime": {
+                    "time": "11 PM",
+                    "roomNumber": "A",
+                    "totalSeats": 40,
+                    "reservedSeats": []
+                }
+            },
+            {
+                "movieid": "2",
+                "name": "PAW Patrol",
+                "showTime": {
+                    "time": "3 PM",
+                    "roomNumber": "B",
+                    "totalSeats": 30,
                     "reservedSeats": []
                 }
             }

@@ -19,7 +19,7 @@
                 "showTime": {
                     "time": "10 AM",
                     "roomNumber": "A",
-                    "totalSeats": 50,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -75,7 +75,7 @@
                 "showTime": {
                     "time": "6 PM",
                     "roomNumber": "A",
-                    "totalSeats": 50,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -95,7 +95,7 @@
                 "showTime": {
                     "time": "8 PM",
                     "roomNumber": "A",
-                    "totalSeats": 50,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -141,7 +141,7 @@
                 "showTime": {
                     "time": "6 PM",
                     "roomNumber": "B",
-                    "totalSeats": 50,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -171,7 +171,7 @@
                 "showTime": {
                     "time": "10 AM",
                     "roomNumber": "B",
-                    "totalSeats": 50,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             }
@@ -197,7 +197,7 @@
                 "showTime": {
                     "time": "8 PM",
                     "roomNumber": "A",
-                    "totalSeats": 50,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -207,7 +207,7 @@
                 "showTime": {
                     "time": "10 PM",
                     "roomNumber": "B",
-                    "totalSeats": 60,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -217,7 +217,7 @@
                 "showTime": {
                     "time": "4 PM",
                     "roomNumber": "A",
-                    "totalSeats": 50,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -227,7 +227,7 @@
                 "showTime": {
                     "time": "11 AM",
                     "roomNumber": "B",
-                    "totalSeats": 60,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -237,7 +237,7 @@
                 "showTime": {
                     "time": "2 PM",
                     "roomNumber": "A",
-                    "totalSeats": 50,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             }
@@ -263,7 +263,7 @@
                 "showTime": {
                     "time": "10 PM",
                     "roomNumber": "A",
-                    "totalSeats": 50,
+                    "totalSeats": 30,
                     "reservedSeats": []
                 }
             },
@@ -273,7 +273,7 @@
                 "showTime": {
                     "time": "5 PM",
                     "roomNumber": "B",
-                    "totalSeats": 60,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -283,7 +283,7 @@
                 "showTime": {
                     "time": "6 PM",
                     "roomNumber": "A",
-                    "totalSeats": 50,
+                    "totalSeats": 30,
                     "reservedSeats": []
                 }
             },
@@ -293,7 +293,7 @@
                 "showTime": {
                     "time": "2 PM",
                     "roomNumber": "B",
-                    "totalSeats": 60,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             },
@@ -303,7 +303,7 @@
                 "showTime": {
                     "time": "9 PM",
                     "roomNumber": "B",
-                    "totalSeats": 60,
+                    "totalSeats": 40,
                     "reservedSeats": []
                 }
             }
@@ -349,7 +349,7 @@
                 "showTime": {
                     "time": "8 PM",
                     "roomNumber": "B",
-                    "totalSeats": 50,
+                    "totalSeats": 30,
                     "reservedSeats": []
                 }
             },
@@ -557,7 +557,7 @@
                 "showTime": {
                     "time": "9 PM",
                     "roomNumber": "B",
-                    "totalSeats": "20",
+                    "totalSeats": 20,
                     "reservedSeats": []
                 }
             }
@@ -623,7 +623,7 @@
                 "showTime": {
                     "time": "9 PM",
                     "roomNumber": "B",
-                    "totalSeats": "20",
+                    "totalSeats": 20,
                     "reservedSeats": []
                 }
             }

@@ -8,12 +8,13 @@ function getMovies(filter, genre = null) {
 }
 
 
-function getOneMovie(id) {
+function getOneMovie(id, booking = false, time = null, roomNumber = null, totalSeats = null, reservedSeats = null) {
     fetch("assets/movies.json")
         .then(res => res.json())
         .then(data => data.filter(item => item.id == id))
-        .then(newdata => showMovie(newdata))
+        .then(newdata => (booking) ? bookMovie(newdata, time , roomNumber, totalSeats, reservedSeats) : showMovie(newdata))
 }
+
 
 
 function getCinemas(id = null) {

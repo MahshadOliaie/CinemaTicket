@@ -164,7 +164,7 @@ function renderOneCinema(data) {
 
         let movieImage = allMovies.find(item => item.id == movieid).image;
 
-        return `<div class="showCinema__movies__movie">
+        return `<div class="showCinema__movies__movie" onclick="getOneMovie(${movieid}, true , '${time}','${roomNumber}','${totalSeats}','${reservedSeats}')">
         <div class="showCinema__movies__movie__img"><img
                 src="${movieImage}"
                 alt=""></div>
@@ -181,4 +181,66 @@ function renderOneCinema(data) {
     root.classList.remove("cinemas");
     root.classList.remove("allMovies");
     root.classList.add("showCinema")
+}
+
+
+
+
+function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
+
+    const { trailer, name, image, director, about, language, genre } = movieData[0];
+
+    root.innerHTML = `<div class="videoBox">
+    <video width="100%" height="100%" controls autoplay muted>
+        <source
+            src="${trailer}"
+            type="video/mp4">
+    </video>
+</div>
+
+<div class="movieBox">
+    <div class="movieBox__movie">
+        <div class="movieBox__movie__img"><img src="${image}" alt=""></div>
+        <div class="movieBox__movie__text">
+            <h3 class="movieBox__movie__text__name">${name} <span class="showtime">${time}</span></h3>
+            <p class="movieBox__movie__text__director">${director}</p>
+            <p class="movieBox__movie__text__room"><span>Room: </span>${roomNumber}</p>
+            <div class="movieBox__movie__text__genres"></div>
+            <p class="movieBox__movie__text__time">${movieData[0].time}</p>
+            <p class="movieBox__movie__text__about"><span>About: </span>${about}</p>
+            <p class="movieBox__movie__text__lang"><span>Language: </span>${language}</p>
+        </div>
+    </div>
+
+
+    <div class="seatsContainer">
+        <div class="movieBox__seats ${(totalSeats==40)?'num40': (totalSeats==30)? 'num30': ''}">
+          
+        </div>
+
+        <div class="guide">
+            <p><span class="reserved"></span>reserved</p>
+            <p><span class="available"></span>Available</p>
+            <p><span class="selected"></span>Selected</p>
+        </div>
+
+        <div class="doneBtn">DONE</div>
+    </div>
+</div>`;
+
+
+    for (let i = 1; i <= totalSeats; i++) {
+        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i))? 'reserved' : 'available'}">${i}</p>`
+    }
+
+    let genretemplate = genre.map(genre => {
+        return `<p class="movieBox__movie__text__genres__genre">${genre}</p>`
+    }).join("")
+
+    document.querySelector(".movieBox__movie__text__genres").innerHTML = genretemplate
+
+    root.classList.add("bookingPage");
+    root.classList.remove("cinemas");
+    root.classList.remove("allMovies");
+    root.classList.remove("showCinema")
 }

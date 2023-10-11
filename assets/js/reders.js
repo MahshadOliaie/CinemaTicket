@@ -224,13 +224,13 @@ function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
             <p><span class="selected"></span>Selected</p>
         </div>
 
-        <div class="doneBtn">DONE</div>
+        <div class="doneBtn" onclick="chooseSeat()">DONE</div>
     </div>
 </div>`;
 
 
     for (let i = 1; i <= totalSeats; i++) {
-        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i))? 'reserved' : 'available'}">${i}</p>`
+        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i))? 'reserved' : 'available'}"  onclick="event.target.classList.toggle('selected')">${i}</p>`
     }
 
     let genretemplate = genre.map(genre => {
@@ -243,4 +243,10 @@ function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
     root.classList.remove("cinemas");
     root.classList.remove("allMovies");
     root.classList.remove("showCinema")
+}
+
+
+
+function chooseSeat(){
+    
 }

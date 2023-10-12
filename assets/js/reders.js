@@ -125,7 +125,7 @@ function renderCinemas(data, id) {
 
 
 function renderOneCinema(data) {
-    const { id, name, rate, image, address, phone, geo, movies } = data[0];
+    const { name, rate, image, address, phone, geo, movies } = data[0];
     const { lat, lng } = geo;
 
     root.innerHTML = `<div class="showCinema__map" id="map"></div>
@@ -173,7 +173,7 @@ function renderOneCinema(data) {
 
         let movieImage = allMovies.find(item => item.id == movieid).image;
 
-        return `<div class="showCinema__movies__movie" onclick="getOneMovie(${movieid}, true , '${time}','${roomNumber}','${totalSeats}','${reservedSeats}')">
+        return `<div class="showCinema__movies__movie" onclick="getOneMovie(${movieid}, true ,'${data[0].name}', '${time}','${roomNumber}','${totalSeats}','${reservedSeats}')">
         <div class="showCinema__movies__movie__img"><img
                 src="${movieImage}"
                 alt=""></div>
@@ -195,7 +195,7 @@ function renderOneCinema(data) {
 
 
 
-function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
+function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeats) {
 
     const { trailer, name, image, director, about, language, genre } = movieData[0];
 
@@ -230,10 +230,10 @@ function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
         <div class="guide">
             <p><span class="reserved"></span>reserved</p>
             <p><span class="available"></span>Available</p>
-            <p><span class="selected"></span>Selected</p>
+            <p><span class="select"></span>Selected</p>
         </div>
 
-        <div class="doneBtn" onclick="chooseSeat()">DONE</div>
+        <div class="doneBtn" onclick="chooseSeat('${image}', '${name}', '${time}' ,'${roomNumber}' , '${cinema}')">DONE</div>
     </div>
 </div>`;
 
@@ -256,6 +256,82 @@ function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
 
 
 
-function chooseSeat() {
+function chooseSeat(image, name, time, roomNumber, cinema) {
+    let res = confirm("are you sure?");
+    if (res) {
+        let seats = [...document.querySelectorAll(".selected")];
+
+        for (const seat of seats) {
+            moviesTicket.push({
+                "seatNumber": seat.textContent,
+                "movieName": name,
+                "cinema": cinema,
+                "image": image,
+                "time": time,
+                "room": roomNumber
+            })
+            seat.classList.add("reserved")
+            seat.classList.remove("selected")
+        }
+    }
+
+}
+
+
+
+
+
+function renderTicket() {
+    document.querySelector(".menu").classList.add("dnone");
+    let i = 0;
+
+    if (moviesTicket.length == 0) {
+        root.innerHTML = "<h1 class='empty'>empty</h1>"
+    }
+
+    else {
+
+        root.innerHTML = ` <div class="container">
+        <div class="card-carousel"></div>
+        <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+    </div>`;
+
+        let template = moviesTicket.map(item => {
+            const { seatNumber, movieName, cinema, image, time, room } = item
+            i++
+            return `<div class="card" id="${i}">
+                <div class="image-container"><img
+                        src="${image}"
+                        alt=""></div>
+                <h3 class="card__title">${movieName}</h3>
+                <p class="card__time">${time}</p>
+                <p class="card__cinema">${cinema}</p>
+                <div class="line">
+                    <p class="card__room"><span>Room: </span>${room}</p>
+                    <p class="card__seat"><span>Seat Number: </span>${seatNumber}</p>
+                </div>
+    
+                <div class="barcode">
+                    <svg id="barcode"></svg>
+                </div>
+    
+            </div>`
+        }).join("");
+
+        document.querySelector(".card-carousel").innerHTML = template;
+
+        root.classList.remove("cinemas");
+        root.classList.remove("allMovies");
+        root.classList.remove("showCinema")
+
+        carousel();
+        JsBarcode("#barcode", "82516590534", {
+            background: "whitesmoke",
+            margin: 0,
+            height: 60,
+            text: "  "
+        });
+
+    }
 
 }

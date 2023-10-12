@@ -21,6 +21,11 @@ a {
   display: none !important;
 }
 
+.empty {
+  color: white;
+  text-align: center;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -971,7 +976,7 @@ img.huechange {
   background-color: rgb(75, 15, 75);
 }
 
-.selected {
+.selected, .select {
   background-color: rgb(217, 89, 217);
 }
 
@@ -1010,4 +1015,146 @@ img.huechange {
 }
 .num30 .movieBox__seats__seat {
   padding: 20px;
+}
+
+.visuallyhidden {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  opacity: 0;
+}
+
+.container {
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 2em;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.card-carousel {
+  --card-width: 90%;
+  --card-max-width: 300px;
+  --card-height: 85vh;
+  --carousel-min-width: 600px;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: var(--card-height);
+  min-width: var(--carousel-min-width);
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
+}
+
+@media screen and (max-width: 640px) {
+  .card-carousel {
+    margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2);
+  }
+}
+.card-carousel.smooth-return {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.card-carousel .card {
+  background: whitesmoke;
+  width: var(--card-width);
+  max-width: var(--card-max-width);
+  text-align: center;
+  padding: 1em;
+  min-width: 250px;
+  height: var(--card-height);
+  position: absolute;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  -webkit-transition: inherit;
+  transition: inherit;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card.highlight {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+}
+
+.image-container {
+  width: 100%;
+  position: relative;
+  padding: 1em;
+}
+.image-container img {
+  width: 100%;
+  border-radius: 0.6em;
+}
+
+.line {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  overflow: hidden;
+}
+@media screen and (max-width: 700px) {
+  .card {
+    font-size: small;
+  }
+}
+.card__title {
+  margin: 0;
+}
+.card__cinema {
+  color: rgba(0, 0, 0, 0.731);
+}
+.card span {
+  font-weight: 600;
+}
+
+.barcode,
+#barcode {
+  width: 100%;
+}
+
+.barcode {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 1px dashed;
+  padding-top: 20px;
 }/*# sourceMappingURL=main.min.css.map */

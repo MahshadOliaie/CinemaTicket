@@ -13,6 +13,9 @@
     <script src="./assets/js/reders.js" defer></script>
     <script src="./assets/js/main.js" defer></script>
     <script src="./assets/js/showMovie.js" defer></script>
+    <script src="./assets/js/carousel.js" defer></script>
+
+    <script src="./assets/js/barcode.js"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
@@ -26,7 +29,7 @@
         <div class="logo"><img src="./assets/images/logo.png" alt="logo"></div>
         <div class="nav">
             <a href="#" class="home currentPage" onclick="reload()">Home</a>
-            <a href="#">My Tickets</a>
+            <a href="#" onclick="renderTicket()">My Tickets</a>
             <a href="#" onclick="getMovies()">Movies</a>
             <a href="#" onclick="getCinemas()">Cinema</a>
         </div>
@@ -44,7 +47,7 @@
         <div class="menu dnone">
             <div class="Menu__nav">
                 <a href="#" onclick="reload()">Home</a>
-                <a href="#">My Tickets</a>
+                <a href="#" onclick="renderTicket()">My Tickets</a>
                 <a href="#" onclick="getMovies()">Movies</a>
                 <a href="#" onclick="getCinemas()">Cinema</a>
             </div>
@@ -147,7 +150,6 @@
             <div class="swiper-button-prev" style="color: rgb(168, 39, 254); text-shadow: 1px 1px 1rem black;"></div>
             <div class="swiper-pagination"></div>
         </div>
-
 
 
 

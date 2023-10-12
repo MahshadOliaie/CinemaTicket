@@ -1,0 +1,124 @@
+// carousel slider
+.visuallyhidden {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    opacity: 0;
+
+}
+
+
+.container {
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 2em;
+    background: rgba(0, 0, 0, .1)
+}
+
+.card-carousel {
+    --card-width: 90%;
+    --card-max-width: 300px;
+    --card-height: 85vh;
+    --carousel-min-width: 600px;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: var(--card-height);
+    min-width: var(--carousel-min-width);
+    transition: filter .3s ease;
+}
+
+@media screen and (max-width: 640px) {
+    .card-carousel {
+        margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+    }
+}
+
+.card-carousel.smooth-return {
+    transition: all .2s ease;
+}
+
+.card-carousel .card {
+    background: whitesmoke;
+    width: var(--card-width);
+    max-width: var(--card-max-width);
+    text-align: center;
+    padding: 1em;
+    min-width: 250px;
+    height: var(--card-height);
+    position: absolute;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    transition: inherit;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+    filter: brightness(.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card.highlight {
+    filter: brightness(1)
+}
+
+
+.image-container {
+    width: 100%;
+    position: relative;
+    padding: 1em;
+
+    & img {
+        width: 100%;
+        border-radius: .6em;
+    }
+
+}
+
+
+.line {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    overflow: hidden;
+
+    @media screen and (max-width:700px) {
+        font-size: small;
+    }
+
+    &__title {
+        margin: 0;
+    }
+
+    &__cinema {
+        color: rgba(0, 0, 0, 0.731);
+    }
+
+    & span {
+        font-weight: 600;
+    }
+}
+
+.barcode,
+#barcode {
+    width: 100%;
+}
+
+.barcode{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px dashed;
+    padding-top: 20px;
+}

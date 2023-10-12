@@ -1034,7 +1034,7 @@ img.huechange {
 .card-carousel {
   --card-width: 90%;
   --card-max-width: 300px;
-  --card-height: 85vh;
+  --card-height: 80vh;
   --carousel-min-width: 600px;
   z-index: 1;
   position: relative;

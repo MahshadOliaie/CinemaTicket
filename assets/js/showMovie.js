@@ -58,5 +58,4 @@ function showMovie(movie) {
     root.classList.remove("allMovies");
     root.classList.remove("cinemas");
     root.classList.remove("showCinema")
-
 }

@@ -128,7 +128,7 @@ function renderOneCinema(data) {
     const { id, name, rate, image, address, phone, geo, movies } = data[0];
     const { lat, lng } = geo;
 
-    root.innerHTML = `<div class="showCinema__map"></div>
+    root.innerHTML = `<div class="showCinema__map" id="map"></div>
 
     <div class="showCinema__about">
         <div class="showCinema__about__img"><img
@@ -154,6 +154,15 @@ function renderOneCinema(data) {
     <h2 class="seperator">MOVIES</h2>
     <div class="showCinema__movies">
  </div>`;
+
+
+    var map = L.map('map').setView([lat, lng], 15);
+    L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+        maxZoom: 20,
+        subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+    }).addTo(map);
+    var marker = L.marker([lat, lng]).addTo(map);
+    marker._icon.classList.add("huechange");
 
 
 
@@ -214,7 +223,7 @@ function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
 
 
     <div class="seatsContainer">
-        <div class="movieBox__seats ${(totalSeats==40)?'num40': (totalSeats==30)? 'num30': ''}">
+        <div class="movieBox__seats ${(totalSeats == 40) ? 'num40' : (totalSeats == 30) ? 'num30' : ''}">
           
         </div>
 
@@ -230,7 +239,7 @@ function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
 
 
     for (let i = 1; i <= totalSeats; i++) {
-        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i))? 'reserved' : 'available'}"  onclick="event.target.classList.toggle('selected')">${i}</p>`
+        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i)) ? 'reserved' : 'available'}"  onclick="event.target.classList.toggle('selected')">${i}</p>`
     }
 
     let genretemplate = genre.map(genre => {
@@ -247,6 +256,6 @@ function bookMovie(movieData, time, roomNumber, totalSeats, reservedSeats) {
 
 
 
-function chooseSeat(){
-    
+function chooseSeat() {
+
 }

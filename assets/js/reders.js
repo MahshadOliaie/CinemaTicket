@@ -238,8 +238,17 @@ function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeat
 </div>`;
 
 
+debugger
+
+    moviesTicket.map(item => {
+        if (item.cinema == cinema && item.movieName == name)
+            resevedSeatNumber.push(+item.seatNumber)
+        debugger
+    })
+    debugger
+
     for (let i = 1; i <= totalSeats; i++) {
-        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i)) ? 'reserved' : 'available'}"  onclick="event.target.classList.toggle('selected')">${i}</p>`
+        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i) || resevedSeatNumber.includes(i)) ? 'reserved' : 'available'}"  onclick="event.target.classList.toggle('selected')">${i}</p>`
     }
 
     let genretemplate = genre.map(genre => {
@@ -270,6 +279,8 @@ function chooseSeat(image, name, time, roomNumber, cinema) {
                 "time": time,
                 "room": roomNumber
             })
+
+            localStorage.setItem("ticket", JSON.stringify(moviesTicket))
             seat.classList.add("reserved")
             seat.classList.remove("selected")
         }

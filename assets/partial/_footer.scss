@@ -1,4 +1,49 @@
 .footer {
     width: 100%;
-    background: linear-gradient(180deg, rgb(52, 19, 52), black 90%);
+    background: linear-gradient(180deg , black 60% ,rgb(52, 19, 52));
+    height: 30vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(232, 203, 244, 0.659);
+    font-size: 10px;
+    font-weight: 200;
+
+
+    & a{
+        transition: 400ms;
+        &:hover{
+            text-decoration: underline;
+            color: rgb(219, 173, 230);
+            transition: 400ms;
+        }
+    }
+
+    & p{
+        margin: 2px;
+    }
+   
+}
+
+.media{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+
+    & svg{
+        fill: rgb(229, 203, 235);
+        width: 30px;
+        margin: 0 2%;
+        transition: 400ms;
+
+        &:hover{
+            transform: scale(1.07);
+            fill: rgb(219, 173, 230);
+            transition: 400ms;
+        }
+    }
 }

@@ -38,6 +38,7 @@ function renderHome(data, genre) {
 function renderMovies(data, genre, filter) {
 
     allMovies = data;
+    filteredGenre = filter;
 
     if (genre) {
         renderHome(data, genre)

@@ -33,33 +33,3 @@ function getOneCinema(id) {
 
 
 
-
-
-// const update = {
-//     movies: [
-//         {
-//             movieid: "1",
-//             name: "Barbie",
-//             showTime: {
-//                 time: "10 AM",
-//                 roomNumber: "A",
-//                 totalSeats: 40,
-//                 reservedSeats: [1, 2, 3]
-//             }
-//         }]
-// }
-
-// const updateStr = JSON.stringify(update);
-
-// const options = {
-//     method: 'PUT',
-//     headers: {
-//         'Content-Type': 'application/json'
-//     },
-//     body: updateStr
-// }
-
-
-// fetch("assets/cinemas.json", options)
-//     .then(res => res.json())
-//     .then(data => console.log(data))

@@ -24,7 +24,8 @@ window.addEventListener("load", function () {
 
 function checkDate() {
     const d = new Date();
-    document.querySelector(".date").textContent = d;
+    if (document.querySelector(".date"))
+        document.querySelector(".date").textContent = d;
     let hour = d.getHours();
     let minutes = d.getMinutes();
     let seconds = d.getSeconds();

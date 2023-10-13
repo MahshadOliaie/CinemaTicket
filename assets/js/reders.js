@@ -42,6 +42,21 @@ function renderMovies(data, genre, filter) {
     if (genre) {
         renderHome(data, genre)
     } else {
+
+
+        if (filter.length > 0) {
+            data = [];
+            allMovies.filter(movie => {
+                filter.map(item => {
+                    if (movie.genre.includes(item)) {
+                        if (!data.includes(movie))
+                            data.push(movie)
+                    }
+                })
+            })
+
+        }
+
         let template = data.map(item => {
             return ` <div>
             <div class="hoverLayer" onclick="getOneMovie(${item.id})"><img src="${item.image}" alt=""></div>

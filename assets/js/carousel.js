@@ -322,5 +322,3 @@ function carousel() {
     const carousel = new CardCarousel(cardsContainer)
 }
 
-
-carousel();

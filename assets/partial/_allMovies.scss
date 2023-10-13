@@ -1,7 +1,7 @@
 .allMovies {
     width: 100%;
     display: grid;
-    padding-top: 15%;
+    padding-top: 16%;
     grid-template-columns: repeat(3, 23%);
     align-items: flex-start;
     row-gap: 70px;
@@ -70,7 +70,8 @@
     z-index: 10000;
     flex-wrap: wrap;
     left: 7%;
-    max-width: 70%;
+    width: 70%;
+    max-width: 500px;
     box-shadow: inset 1px 1px 1rem rgb(215, 151, 236);
     grid-column-start: 1;
     border-radius: 10px;

@@ -45,7 +45,7 @@ function renderMovies(data, genre, filter) {
     } else {
 
 
-        if (filter.length>0) {
+        if (filter.length > 0) {
             data = [];
             allMovies.filter(movie => {
                 filter.map(item => {
@@ -80,9 +80,9 @@ function renderMovies(data, genre, filter) {
         root.innerHTML = `<div class="genrePicker" onclick="show()">GENRES <span class="filteredCounter">${filteredGenre.length} genre filtered</span></div> <div class="genreFilter"></div>` + template;
 
         let genresTemplate = allGenres.map(genre => {
-            return `<p class="genreFilter__genre ${(filteredGenre.length==0)? "" : (filteredGenre.includes(String(genre)))? "genreSelect" : "" }" onclick="pickGenre('${genre}')">${genre}</p>`
+            return `<p class="genreFilter__genre ${(filteredGenre.length == 0) ? "" : (filteredGenre.includes(String(genre))) ? "genreSelect" : ""}" onclick="pickGenre('${genre}')">${genre}</p>`
         }).join("")
-        document.querySelector(".genreFilter").innerHTML = `<p class="genreFilter__genre all ${(filteredGenre.length==0)? "genreSelect" : ""} " onclick="pickGenre('All')">All</p>`+genresTemplate
+        document.querySelector(".genreFilter").innerHTML = `<p class="genreFilter__genre all ${(filteredGenre.length == 0) ? "genreSelect" : ""} " onclick="pickGenre('All')">All</p>` + genresTemplate
 
         root.classList.add("allMovies")
         root.classList.remove("cinemas")

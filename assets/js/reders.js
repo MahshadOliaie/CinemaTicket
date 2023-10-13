@@ -129,7 +129,7 @@ function renderOneCinema(data) {
     const { lat, lng } = geo;
 
     root.innerHTML = `<div class="showCinema__map" id="map"></div>
-
+    <a href="https://www.google.com/maps/search/?api=1&query=${lat}%2C${lng}" class="googleMap">Find in Google Map</a>
     <div class="showCinema__about">
         <div class="showCinema__about__img"><img
                 src="${image}"

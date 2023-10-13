@@ -159,3 +159,15 @@ img.huechange { filter: hue-rotate(150deg); }
     font-size: 12px;
     text-shadow: 1px 1px 1rem purple;
 }
+
+
+.googleMap{
+    margin-left: 5%;
+    padding: 10px;
+
+    &:hover {
+        text-decoration: underline;
+        color: rgba(218, 163, 224, 0.809);
+        transition: 300ms;
+    }
+}

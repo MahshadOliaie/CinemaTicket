@@ -830,6 +830,17 @@ img.huechange {
   text-shadow: 1px 1px 1rem purple;
 }
 
+.googleMap {
+  margin-left: 5%;
+  padding: 10px;
+}
+.googleMap:hover {
+  text-decoration: underline;
+  color: rgba(218, 163, 224, 0.809);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
 .movieBox {
   color: white;
   display: -webkit-box;

@@ -814,6 +814,22 @@ img.huechange {
           filter: hue-rotate(150deg);
 }
 
+.date {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2%;
+  font-size: 12px;
+  text-shadow: 1px 1px 1rem purple;
+}
+
 .movieBox {
   color: white;
   display: -webkit-box;

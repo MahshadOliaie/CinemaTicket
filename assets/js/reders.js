@@ -151,6 +151,7 @@ function renderOneCinema(data) {
             <p class="showCinema__about__text__phone">Phone number: <span>${phone}</span></p>
         </div>
     </div>
+    <div class="date"></div>
     <h2 class="seperator">MOVIES</h2>
     <div class="showCinema__movies">
  </div>`;
@@ -223,6 +224,9 @@ function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeat
 
 
     <div class="seatsContainer">
+
+    <div class="date"></div>
+
         <div class="movieBox__seats ${(totalSeats == 40) ? 'num40' : (totalSeats == 30) ? 'num30' : ''}">
           
         </div>
@@ -238,7 +242,7 @@ function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeat
 </div>`;
 
 
-debugger
+    debugger
 
     moviesTicket.map(item => {
         if (item.cinema == cinema && item.movieName == name)
@@ -297,7 +301,7 @@ function renderTicket() {
     let i = 0;
 
     if (moviesTicket.length == 0) {
-        root.innerHTML = "<h1 class='empty'>empty</h1>"
+        root.innerHTML = "<h1 class='empty'>no ticket for today</h1>"
     }
 
     else {

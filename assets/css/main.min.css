@@ -393,7 +393,7 @@ a {
 .allMovies {
   width: 100%;
   display: grid;
-  padding-top: 10%;
+  padding-top: 15%;
   grid-template-columns: repeat(3, 23%);
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -407,6 +407,7 @@ a {
 @media screen and (max-width: 500px) {
   .allMovies {
     grid-template-columns: repeat(2, 40%);
+    padding-top: 22%;
   }
 }
 .allMovies img {
@@ -457,6 +458,85 @@ a {
   opacity: 1;
   -webkit-transition: 500ms;
   transition: 500ms;
+}
+
+.genreFilter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 10000;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  left: 7%;
+  max-width: 70%;
+  -webkit-box-shadow: inset 1px 1px 1rem rgb(215, 151, 236);
+          box-shadow: inset 1px 1px 1rem rgb(215, 151, 236);
+  grid-column-start: 1;
+  border-radius: 10px;
+  grid-column-end: 4;
+  padding: 2% 5%;
+  background-color: rgb(29, 0, 29);
+  display: none;
+}
+.genreFilter__genre {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.genreFilter__genre:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.genreSelect {
+  background-color: purple;
+}
+
+.genrePicker {
+  position: absolute;
+  border: 1px solid;
+  top: 15%;
+  left: 7%;
+  border-radius: 10px;
+  max-width: 100px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgb(91, 0, 91);
+  cursor: pointer;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.genrePicker:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.filteredCounter {
+  position: absolute;
+  right: -130px;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .about {

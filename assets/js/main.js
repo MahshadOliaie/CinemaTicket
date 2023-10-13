@@ -37,6 +37,6 @@ function checkDate() {
 setInterval(checkDate, 1000)
 
 
-
-
-
+function show(){
+    document.querySelector(".genreFilter").classList.toggle("show")
+}

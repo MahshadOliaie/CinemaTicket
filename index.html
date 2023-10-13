@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/main.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <script src="./assets/js/domNodes.js" defer></script>
+    <script src="./assets/js/filter.js" defer></script>
     <script src="./assets/js/requests.js" defer></script>
     <script src="./assets/js/reders.js" defer></script>
     <script src="./assets/js/main.js" defer></script>
@@ -30,7 +31,7 @@
         <div class="nav">
             <a href="#" class="home currentPage" onclick="reload()">Home</a>
             <a href="#" onclick="renderTicket()">My Tickets</a>
-            <a href="#" onclick="getMovies()">Movies</a>
+            <a href="#" onclick="getMovies(filteredGenre)">Movies</a>
             <a href="#" onclick="getCinemas()">Cinema</a>
         </div>
         <div class="login"><a href="#" id="login">Log In</a>
@@ -59,9 +60,8 @@
     </header>
 
 
-        
-
-
+    
+   
 
     <div class="body">
 

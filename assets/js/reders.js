@@ -100,7 +100,9 @@ function renderCinemas(data, id) {
 
     if (id) {
 
-        history.pushState({}, "", `/${id}Cinemas`)
+        if (location.pathname !== `/${id}Cinemas`) {
+            history.pushState({}, "", `/${id}Cinemas`)
+        }
 
         let newData = [];
         data.map(item => {
@@ -116,8 +118,12 @@ function renderCinemas(data, id) {
 
 
         data = newData;
-    }else{
-        history.pushState({}, "", "/Cinemas")
+    } else {
+
+        if (location.pathname !== "/Cinemas") {
+            history.pushState({}, "", "/Cinemas")
+        }
+
     }
 
     let template = data.map(item => {
@@ -161,10 +167,13 @@ function renderCinemas(data, id) {
 
 function renderOneCinema(data) {
 
-    const { id,name, rate, image, address, phone, geo, movies } = data[0];
+    const { id, name, rate, image, address, phone, geo, movies } = data[0];
     const { lat, lng } = geo;
 
-    history.pushState({}, "", `/cinema${id}`)
+    if (location.pathname !== `/cinema${id}`) {
+        history.pushState({}, "", `/cinema${id}`)
+    }
+
 
     root.innerHTML = `<div class="showCinema__map" id="map"></div>
     <a href="https://www.google.com/maps/search/?api=1&query=${lat}%2C${lng}" class="googleMap">Find in Google Map</a>
@@ -335,7 +344,10 @@ function chooseSeat(image, name, time, roomNumber, cinema) {
 
 
 function renderTicket() {
-    history.pushState({}, "", "/MyTickets")
+    if (location.pathname !== "/MyTickets") {
+        history.pushState({}, "", "/MyTickets")
+    }
+
     document.querySelector(".menu").classList.add("dnone");
     let i = 0;
 

@@ -31,8 +31,8 @@ function handleLocation() {
 
     if (pathname.includes("BookMovie")) {
         let newPathname = pathname.replaceAll("BookMovie", "").replaceAll("/", "")
-        const {booking , cinemaName , time , roomNumber , totalSeats , reservedSeats} = currentBookMovie;
-        routBookMovie(newPathname, booking , cinemaName , time , roomNumber , totalSeats , reservedSeats)
+        const { booking, cinemaName, time, roomNumber, totalSeats, reservedSeats } = currentBookMovie;
+        routBookMovie(newPathname, booking, cinemaName, time, roomNumber, totalSeats, reservedSeats)
     }
 
     else {
@@ -62,7 +62,10 @@ function routBookMovie(id, booking = false, cinemaName, time = null, roomNumber 
     currentBookMovie.totalSeats = totalSeats;
     currentBookMovie.reservedSeats = reservedSeats;
 
-    history.pushState({}, "", `/BookMovie${id}`)
+    if (location.pathname !== `/BookMovie${id}`) {
+        history.pushState({}, "", `/BookMovie${id}`)
+    }
+
     getOneMovie(id, booking, cinemaName, time, roomNumber, totalSeats, reservedSeats)
 }
 

@@ -12,7 +12,7 @@ function handleLocation() {
     }
 
     if (pathname == "/Movies") {
-        getMovies([])
+        getMovies(filteredGenre)
     }
 
     if (pathname == "/Cinemas") {

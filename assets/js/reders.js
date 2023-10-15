@@ -284,7 +284,7 @@ function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeat
             <p><span class="select"></span>Selected</p>
         </div>
 
-        <div class="doneBtn" onclick="chooseSeat('${image}', '${name}', '${time}' ,'${roomNumber}' , '${cinema}')">DONE</div>
+        <div class="doneBtn disablesDoneBtn" onclick="chooseSeat('${image}', '${name}', '${time}' ,'${roomNumber}' , '${cinema}')">DONE</div>
     </div>
 </div>`;
 
@@ -299,7 +299,7 @@ function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeat
 
 
     for (let i = 1; i <= totalSeats; i++) {
-        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i) || resevedSeatNumber.includes(i)) ? 'reserved' : 'available'}"  onclick="event.target.classList.toggle('selected')">${i}</p>`
+        document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i) || resevedSeatNumber.includes(i)) ? 'reserved' : 'available'}"  onclick="doneBtnState()">${i}</p>`
     }
 
     let genretemplate = genre.map(genre => {
@@ -312,6 +312,17 @@ function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeat
     root.classList.remove("cinemas");
     root.classList.remove("allMovies");
     root.classList.remove("showCinema")
+}
+
+
+
+function doneBtnState(){
+    event.target.classList.toggle('selected')
+    if([...document.querySelectorAll(".selected")].length>0){
+        document.querySelector(".doneBtn").classList.remove("disablesDoneBtn")
+    }else{
+        document.querySelector(".doneBtn").classList.add("disablesDoneBtn")
+    }
 }
 
 
@@ -388,7 +399,7 @@ function renderTicket() {
         document.querySelector(".card-carousel").innerHTML = template;
 
         root.classList.remove("cinemas");
-        root.classList.remove("allMovies");
+        root.classList.remove("allMovies")
         root.classList.remove("showCinema")
 
         carousel();

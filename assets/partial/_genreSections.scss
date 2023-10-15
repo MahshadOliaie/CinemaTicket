@@ -32,6 +32,7 @@
         & a {
             color: rgb(204, 169, 204);
             transition: 400ms;
+            cursor: pointer;
 
             @media screen and (max-width:450px) {
                 font-size: 10px;

@@ -87,6 +87,7 @@
         grid-template-columns: repeat(3, 25%);
         justify-content: space-around;
         row-gap: 5%;
+        margin-bottom: 20%;
         padding: 5%;
 
         @media screen and (max-width:800px) {

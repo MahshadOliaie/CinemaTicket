@@ -26,12 +26,6 @@ function checkDate() {
     const d = new Date();
     if (document.querySelector(".date"))
         document.querySelector(".date").textContent = d;
-    let hour = d.getHours();
-    let minutes = d.getMinutes();
-    let seconds = d.getSeconds();
-    if (hour == 0 && minutes == 0 && seconds == 0) {
-        localStorage.clear();
-    }
 }
 
 setInterval(checkDate, 1000)

@@ -26,6 +26,7 @@
 
         & p {
             transition: 400ms;
+            cursor: pointer;
 
             &:hover {
                 font-weight: 500;
@@ -109,6 +110,7 @@
 
     & p {
         transition: 400ms;
+        cursor: pointer;
         margin: 2px;
 
         &:hover {

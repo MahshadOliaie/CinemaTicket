@@ -67,6 +67,7 @@ a {
 .header .nav p {
   -webkit-transition: 400ms;
   transition: 400ms;
+  cursor: pointer;
 }
 .header .nav p:hover {
   font-weight: 500;
@@ -152,6 +153,7 @@ a {
 .Menu__nav p {
   -webkit-transition: 400ms;
   transition: 400ms;
+  cursor: pointer;
   margin: 2px;
 }
 .Menu__nav p:hover {
@@ -293,6 +295,7 @@ a {
   color: rgb(204, 169, 204);
   -webkit-transition: 400ms;
   transition: 400ms;
+  cursor: pointer;
 }
 @media screen and (max-width: 450px) {
   .genre__title a {
@@ -905,6 +908,7 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   row-gap: 5%;
+  margin-bottom: 20%;
   padding: 5%;
 }
 @media screen and (max-width: 800px) {
@@ -1166,6 +1170,11 @@ img.huechange {
   padding: 10px 30px;
   -webkit-transition: 500ms;
   transition: 500ms;
+}
+
+.disablesDoneBtn {
+  pointer-events: none;
+  opacity: 0.6;
 }
 
 .num40 {

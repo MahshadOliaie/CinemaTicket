@@ -2,7 +2,8 @@
 
 
 function getMovies(filter, genre = null) {
-    topFunction() 
+    topFunction()
+    document.querySelector(".menu").classList.add("dnone"); 
     fetch("assets/movies.json")
         .then(res => res.json())
         .then(data => renderMovies(data, genre, filter))
@@ -11,6 +12,7 @@ function getMovies(filter, genre = null) {
 
 function getOneMovie(id, booking = false, cinemaName, time = null, roomNumber = null, totalSeats = null, reservedSeats = null) {
     topFunction() 
+    document.querySelector(".menu").classList.add("dnone");
     fetch("assets/movies.json")
         .then(res => res.json())
         .then(data => data.filter(item => item.id == id))
@@ -21,6 +23,7 @@ function getOneMovie(id, booking = false, cinemaName, time = null, roomNumber = 
 
 function getCinemas(id = null) {
     topFunction() 
+    document.querySelector(".menu").classList.add("dnone");
     fetch("assets/cinemas.json")
         .then(res => res.json())
         .then(data => renderCinemas(data, id))
@@ -29,6 +32,7 @@ function getCinemas(id = null) {
 
 function getOneCinema(id) {
     topFunction() 
+    document.querySelector(".menu").classList.add("dnone");
     fetch("assets/cinemas.json")
         .then(res => res.json())
         .then(data => data.filter(item => item.id == id))

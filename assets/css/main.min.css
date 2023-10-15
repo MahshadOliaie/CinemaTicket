@@ -66,11 +66,11 @@ a {
     display: none;
   }
 }
-.header .nav a {
+.header .nav p {
   -webkit-transition: 400ms;
   transition: 400ms;
 }
-.header .nav a:hover {
+.header .nav p:hover {
   font-weight: 500;
   color: rgb(168, 98, 168);
   -webkit-transform: scale(1.05);
@@ -151,11 +151,12 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.Menu__nav a {
+.Menu__nav p {
   -webkit-transition: 400ms;
   transition: 400ms;
+  margin: 2px;
 }
-.Menu__nav a:hover {
+.Menu__nav p:hover {
   font-weight: 500;
   color: rgb(168, 98, 168);
   -webkit-transform: scale(1.05);

@@ -3,6 +3,8 @@
 function showMovie(movie) {
     const { name, id, image, trailer, director, time, rate, about, country, language, genre, moreImages } = movie[0];
 
+    history.pushState({}, "", `/${id}`)
+
     let countriesStr = country.join(", ");
     let languageStr = language.join(", ")
 

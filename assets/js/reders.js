@@ -44,6 +44,9 @@ function renderMovies(data, genre, filter) {
         renderHome(data, genre)
     } else {
 
+        if (location.pathname !== "/Movies") {
+            history.pushState({}, "", "/Movies")
+        }
 
         if (filter.length > 0) {
             data = [];
@@ -97,6 +100,8 @@ function renderCinemas(data, id) {
 
     if (id) {
 
+        history.pushState({}, "", `/${id}Cinemas`)
+
         let newData = [];
         data.map(item => {
             let contains = [];
@@ -111,6 +116,8 @@ function renderCinemas(data, id) {
 
 
         data = newData;
+    }else{
+        history.pushState({}, "", "/Cinemas")
     }
 
     let template = data.map(item => {
@@ -153,8 +160,11 @@ function renderCinemas(data, id) {
 
 
 function renderOneCinema(data) {
-    const { name, rate, image, address, phone, geo, movies } = data[0];
+
+    const { id,name, rate, image, address, phone, geo, movies } = data[0];
     const { lat, lng } = geo;
+
+    history.pushState({}, "", `/cinema${id}`)
 
     root.innerHTML = `<div class="showCinema__map" id="map"></div>
     <a href="https://www.google.com/maps/search/?api=1&query=${lat}%2C${lng}" class="googleMap">Find in Google Map</a>
@@ -202,7 +212,7 @@ function renderOneCinema(data) {
 
         let movieImage = allMovies.find(item => item.id == movieid).image;
 
-        return `<div class="showCinema__movies__movie" onclick="getOneMovie(${movieid}, true ,'${data[0].name}', '${time}','${roomNumber}','${totalSeats}','${reservedSeats}')">
+        return `<div class="showCinema__movies__movie" onclick="routBookMovie(${movieid}, true ,'${data[0].name}', '${time}','${roomNumber}','${totalSeats}','${reservedSeats}')">
         <div class="showCinema__movies__movie__img"><img
                 src="${movieImage}"
                 alt=""></div>
@@ -270,14 +280,14 @@ function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeat
 </div>`;
 
 
-    debugger
+
 
     moviesTicket.map(item => {
         if (item.cinema == cinema && item.movieName == name)
             resevedSeatNumber.push(+item.seatNumber)
-        debugger
+
     })
-    debugger
+
 
     for (let i = 1; i <= totalSeats; i++) {
         document.querySelector(".movieBox__seats").innerHTML += `<p class="movieBox__seats__seat ${(reservedSeats.includes(i) || resevedSeatNumber.includes(i)) ? 'reserved' : 'available'}"  onclick="event.target.classList.toggle('selected')">${i}</p>`
@@ -325,6 +335,7 @@ function chooseSeat(image, name, time, roomNumber, cinema) {
 
 
 function renderTicket() {
+    history.pushState({}, "", "/MyTickets")
     document.querySelector(".menu").classList.add("dnone");
     let i = 0;
 

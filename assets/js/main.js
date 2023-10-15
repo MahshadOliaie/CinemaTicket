@@ -7,6 +7,8 @@ function showbar() {
 
 
 function reload() {
+    event.preventDefault()
+    history.pushState({},"","/")
     window.location.reload(true);
 }
 
@@ -40,3 +42,8 @@ setInterval(checkDate, 1000)
 function show(){
     document.querySelector(".genreFilter").classList.toggle("show")
 }
+
+
+
+
+

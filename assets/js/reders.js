@@ -351,16 +351,17 @@ function renderTicket() {
     document.querySelector(".menu").classList.add("dnone");
     let i = 0;
 
+    root.innerHTML = ` <div class="container">
+    <div class="card-carousel"></div>
+    <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+</div>`;
+
+
     if (moviesTicket.length == 0) {
-        root.innerHTML = "<h1 class='empty'>no ticket for today</h1>"
+        document.querySelector(".container").innerHTML = "<h1 class='empty'>no ticket for today</h1>"
     }
 
     else {
-
-        root.innerHTML = ` <div class="container">
-        <div class="card-carousel"></div>
-        <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
-    </div>`;
 
         let template = moviesTicket.map(item => {
             const { seatNumber, movieName, cinema, image, time, room } = item

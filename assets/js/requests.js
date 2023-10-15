@@ -2,6 +2,7 @@
 
 
 function getMovies(filter, genre = null) {
+    topFunction() 
     fetch("assets/movies.json")
         .then(res => res.json())
         .then(data => renderMovies(data, genre, filter))
@@ -9,6 +10,7 @@ function getMovies(filter, genre = null) {
 
 
 function getOneMovie(id, booking = false, cinemaName, time = null, roomNumber = null, totalSeats = null, reservedSeats = null) {
+    topFunction() 
     fetch("assets/movies.json")
         .then(res => res.json())
         .then(data => data.filter(item => item.id == id))
@@ -18,6 +20,7 @@ function getOneMovie(id, booking = false, cinemaName, time = null, roomNumber = 
 
 
 function getCinemas(id = null) {
+    topFunction() 
     fetch("assets/cinemas.json")
         .then(res => res.json())
         .then(data => renderCinemas(data, id))
@@ -25,6 +28,7 @@ function getCinemas(id = null) {
 
 
 function getOneCinema(id) {
+    topFunction() 
     fetch("assets/cinemas.json")
         .then(res => res.json())
         .then(data => data.filter(item => item.id == id))

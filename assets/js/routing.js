@@ -72,5 +72,4 @@ function routBookMovie(id, booking = false, cinemaName, time = null, roomNumber 
 
 
 
-
 window.addEventListener("popstate", handleLocation)

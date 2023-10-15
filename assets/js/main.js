@@ -6,20 +6,18 @@ function showbar() {
 
 
 
-function reload() {
-    event.preventDefault()
-    history.pushState({},"","/")
-    window.location.reload(true);
-}
-
-
-
 window.addEventListener("load", function () {
     getMovies(null, "Drama");
     getMovies(null, "Action");
     getMovies(null, "Comedy");
 })
 
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 
 
@@ -39,7 +37,7 @@ function checkDate() {
 setInterval(checkDate, 1000)
 
 
-function show(){
+function show() {
     document.querySelector(".genreFilter").classList.toggle("show")
 }
 

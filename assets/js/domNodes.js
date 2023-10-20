@@ -7,4 +7,5 @@ let root = document.querySelector(".body")
 let moviesTicket = JSON.parse(localStorage.getItem("ticket")) || []
 let resevedSeatNumber = [];
 let allGenres = [];
-let filteredGenre = []
+let filteredGenre = [];
+let date = document.querySelector(".date") || null;

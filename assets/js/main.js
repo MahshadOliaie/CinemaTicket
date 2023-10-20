@@ -13,6 +13,17 @@ window.addEventListener("load", function () {
 })
 
 
+function reload(){
+    if (location.pathname !== "/") {
+        history.pushState({}, "", "/")
+    }
+    window.location.reload(true);
+    getMovies(null, "Drama");
+    getMovies(null, "Action");
+    getMovies(null, "Comedy");
+}
+
+
 
 function topFunction() {
     document.body.scrollTop = 0;
@@ -21,10 +32,11 @@ function topFunction() {
 
 
 
-
 function checkDate() {
     let d = moment().format('llll');
-    document.querySelector(".date").textContent = d;
+    if (date) {
+        date.textContent = d;
+    }
 }
 
 setInterval(checkDate, 1000)

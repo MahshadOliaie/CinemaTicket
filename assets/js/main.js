@@ -23,7 +23,7 @@ function topFunction() {
 
 
 function checkDate() {
-    let d = moment().format('MMMM Do YYYY, h:mm:ss a');
+    let d = moment().format('llll');
     document.querySelector(".date").textContent = d;
 }
 

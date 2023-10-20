@@ -23,9 +23,8 @@ function topFunction() {
 
 
 function checkDate() {
-    const d = new Date();
-    if (document.querySelector(".date"))
-        document.querySelector(".date").textContent = d;
+    let d = moment().format('MMMM Do YYYY, h:mm:ss a');
+    document.querySelector(".date").textContent = d;
 }
 
 setInterval(checkDate, 1000)

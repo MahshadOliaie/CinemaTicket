@@ -44,6 +44,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -59,7 +60,44 @@ a {
           box-shadow: 0.5px 0 0.5rem rgb(33, 33, 33);
   z-index: 10000000;
 }
-.header div {
+
+#bars {
+  display: none;
+  cursor: pointer;
+  fill: rgb(176, 143, 181);
+}
+@media screen and (max-width: 700px) {
+  #bars {
+    display: inline-block;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #bars {
+    font-size: 25px;
+  }
+}
+
+.imgLogo {
+  width: 22%;
+  max-width: 60px;
+}
+
+.Pheader {
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  cursor: pointer;
+}
+.Pheader:hover {
+  font-weight: 500;
+  color: rgb(168, 98, 168);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.HeaderDiv {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -70,31 +108,22 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-.header .nav {
+
+.nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 @media screen and (max-width: 700px) {
-  .header .nav {
+  .nav {
     display: none;
   }
 }
-.header .nav p {
-  -webkit-transition: 400ms;
-  transition: 400ms;
-  cursor: pointer;
-}
-.header .nav p:hover {
-  font-weight: 500;
-  color: rgb(168, 98, 168);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: 400ms;
-  transition: 400ms;
-}
-.header img {
-  width: 22%;
-  max-width: 60px;
+
+.login {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 2%;
 }
 
 #login,
@@ -115,45 +144,24 @@ a {
   padding: 10px 8.3px;
 }
 
-#Menu__login, #Menu__signup {
+#Menu__login,
+#Menu__signup {
   border: 1px solid;
   color: rgb(169, 73, 169);
   padding: 5px 10px;
   width: 80px;
   text-align: center;
 }
-#Menu__login:hover, #Menu__signup:hover {
+#Menu__login:hover,
+#Menu__signup:hover {
   font-weight: 600;
   padding: 5px 8.3px;
 }
 
-#signup, #Menu__signup {
+#signup,
+#Menu__signup {
   background-color: rgb(169, 73, 169);
   color: black;
-}
-
-.login {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  gap: 2%;
-}
-
-.bars {
-  display: none;
-  cursor: pointer;
-  fill: rgb(176, 143, 181);
-}
-@media screen and (max-width: 700px) {
-  .bars {
-    display: inline-block;
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .bars {
-    font-size: 25px;
-  }
 }
 
 .Menu__nav {
@@ -165,13 +173,14 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.Menu__nav p {
+
+.pMenu {
   -webkit-transition: 400ms;
   transition: 400ms;
   cursor: pointer;
   margin: 2px;
 }
-.Menu__nav p:hover {
+.pMenu:hover {
   font-weight: 500;
   color: rgb(168, 98, 168);
   -webkit-transform: scale(1.05);
@@ -197,7 +206,8 @@ a {
   -webkit-box-shadow: 1px 1px 1rem black;
           box-shadow: 1px 1px 1rem black;
 }
-.menu .login {
+
+.loginMenu {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

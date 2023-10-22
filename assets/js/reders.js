@@ -90,7 +90,8 @@ function renderMovies(data, genre, filter) {
         root.classList.add("allMovies")
         root.classList.remove("cinemas")
         root.classList.remove("showCinema")
-        document.querySelector(".menu").classList.add("dnone");
+        if (menu)
+            menu.classList.add("dnone");
     }
 }
 
@@ -156,7 +157,8 @@ function renderCinemas(data, id) {
     root.classList.add("cinemas");
     root.classList.remove("allMovies")
     root.classList.remove("showCinema")
-    document.querySelector(".menu").classList.add("dnone");
+    if (menu)
+        menu.classList.add("dnone");
 
 }
 
@@ -316,11 +318,11 @@ function bookMovie(movieData, cinema, time, roomNumber, totalSeats, reservedSeat
 
 
 
-function doneBtnState(){
+function doneBtnState() {
     event.target.classList.toggle('selected')
-    if([...document.querySelectorAll(".selected")].length>0){
+    if ([...document.querySelectorAll(".selected")].length > 0) {
         document.querySelector(".doneBtn").classList.remove("disablesDoneBtn")
-    }else{
+    } else {
         document.querySelector(".doneBtn").classList.add("disablesDoneBtn")
     }
 }
@@ -359,7 +361,9 @@ function renderTicket() {
         history.pushState({}, "", "/MyTickets")
     }
 
-    document.querySelector(".menu").classList.add("dnone");
+    if (menu)
+        menu.classList.add("dnone");
+
     let i = 0;
 
     root.innerHTML = ` <div class="container">

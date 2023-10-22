@@ -9,3 +9,4 @@ let resevedSeatNumber = [];
 let allGenres = [];
 let filteredGenre = [];
 let date = document.querySelector(".date") || null;
+let menu = document.querySelector(".menu") || null

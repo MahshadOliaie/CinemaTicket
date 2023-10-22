@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     color: white;
@@ -10,38 +11,69 @@
     box-shadow: .5px 0 .5rem rgb(33, 33, 33);
     z-index: 10000000;
 
-    & div {
-        flex-grow: 1;
-        display: flex;
-        align-items: center;
+}
+
+
+
+#bars {
+    display: none;
+    cursor: pointer;
+    fill: rgb(176, 143, 181);
+
+    @media screen and (max-width:700px) {
+        display: inline-block;
+        font-size: 30px;
     }
 
-    & .nav {
-        justify-content: space-around;
-
-        @media screen and (max-width:700px) {
-            display: none;
-        }
-
-
-        & p {
-            transition: 400ms;
-            cursor: pointer;
-
-            &:hover {
-                font-weight: 500;
-                color: rgb(168, 98, 168);
-                transform: scale(1.05);
-                transition: 400ms;
-            }
-        }
-    }
-
-    & img {
-        width: 22%;
-        max-width: 60px;
+    @media screen and (max-width:400px) {
+        font-size: 25px;
     }
 }
+
+
+
+.imgLogo {
+    width: 22%;
+    max-width: 60px;
+}
+
+
+.Pheader {
+    transition: 400ms;
+    cursor: pointer;
+
+    &:hover {
+        font-weight: 500;
+        color: rgb(168, 98, 168);
+        transform: scale(1.05);
+        transition: 400ms;
+    }
+}
+
+
+
+.HeaderDiv {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    justify-content: space-around;
+
+    @media screen and (max-width:700px) {
+        display: none;
+    }
+}
+
+
+
+.login {
+    justify-content: flex-end;
+    gap: 2%;
+
+}
+
 
 #login,
 #signup {
@@ -60,7 +92,8 @@
 }
 
 
-#Menu__login , #Menu__signup{
+#Menu__login,
+#Menu__signup {
     border: 1px solid;
     color: rgb(169, 73, 169);
     padding: 5px 10px;
@@ -74,56 +107,35 @@
 
 }
 
-#signup  , #Menu__signup{
+#signup,
+#Menu__signup {
     background-color: rgb(169, 73, 169);
     color: black;
 }
 
 
-.login {
-    justify-content: flex-end;
-    gap: 2%;
 
-}
-
-.bars{
-    display: none;
-    cursor: pointer;
-    fill: rgb(176, 143, 181);
-
-    @media screen and (max-width:700px) {
-        display: inline-block;
-        font-size: 30px;
-    }
-
-    @media screen and (max-width:400px) {
-        font-size: 25px;
-    }
-}
-
-
-
-.Menu__nav{
-
+.Menu__nav {
     flex-direction: column;
     justify-content: space-between;
+}
 
-    & p {
+
+.pMenu {
+    transition: 400ms;
+    cursor: pointer;
+    margin: 2px;
+
+    &:hover {
+        font-weight: 500;
+        color: rgb(168, 98, 168);
+        transform: scale(1.05);
         transition: 400ms;
-        cursor: pointer;
-        margin: 2px;
-
-        &:hover {
-            font-weight: 500;
-            color: rgb(168, 98, 168);
-            transform: scale(1.05);
-            transition: 400ms;
-        }
     }
 }
 
 
-.menu{
+.menu {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -134,7 +146,11 @@
     padding: 20px 40px;
     box-shadow: 1px 1px 1rem black;
 
-    & .login{
-        flex-direction: column;
-    }
+
 }
+
+.loginMenu {
+    flex-direction: column;
+}
+
+

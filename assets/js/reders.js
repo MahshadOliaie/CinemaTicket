@@ -407,7 +407,7 @@ function renderTicket() {
         root.classList.remove("showCinema")
 
         carousel();
-        JsBarcode("#barcode", "82516590534", {
+        JsBarcode("#barcode", "8251659053", {
             background: "whitesmoke",
             margin: 0,
             height: 60,

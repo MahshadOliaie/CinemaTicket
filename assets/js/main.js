@@ -1,7 +1,7 @@
 
 // header actions
 function showbar() {
-    document.querySelector(".menu").classList.toggle("dnone");
+    menu.classList.toggle("dnone");
 }
 
 
@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
 })
 
 
-function reload(){
+function reload() {
     if (location.pathname !== "/") {
         history.pushState({}, "", "/")
     }

@@ -12,17 +12,18 @@
     overflow: hidden;
     padding: 20px;
     background: rgba(0, 0, 0, .1);
-    height: 100vh;
+    height: 90vh;
 }
 
 .card-carousel {
-    --card-width: 90%;
-    --card-max-width: 300px;
-    --card-height: 82vh;
+    --card-width: 80%;
+    --card-max-width: 200px;
+    --card-height: 550px;
     --carousel-min-width: 600px;
     z-index: 1;
     position: relative;
     margin: 0 auto;
+    margin-top: 5%;
     width: 100%;
     height: var(--card-height);
     min-width: var(--carousel-min-width);
@@ -90,9 +91,7 @@
 .card {
     overflow: hidden;
 
-    @media screen and (max-width:650px) {
-        font-size: small;
-    }
+    font-size: small;
 
     &__title {
         margin: 0;
@@ -118,11 +117,12 @@
 
 .barcode{
     position: absolute;
-    bottom: 0;
+    bottom: -18px;
     left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     border-top: 1px dashed;
-    padding-top: 20px;
+    padding: 15px;
 }
+

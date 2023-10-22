@@ -76,20 +76,14 @@ class customHeader extends HTMLElement {
         signup.setAttribute("id", "signup");
         signup.textContent = "Sign Up";
 
-        const bar = document.createElement("svg");
-        const path = document.createElement("path");
-        path.setAttribute("d", "M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z")
-        bar.setAttribute("xmlns", "http://www.w3.org/2000/svg")
-        bar.setAttribute("id", "bars");
-        bar.setAttribute("height", "1em");
+        const bar = document.createElement("img");
+        bar.setAttribute("id" , "bars")
+        bar.setAttribute("src", "./assets/images/bars.svg");
         bar.setAttribute("onclick", "showbar()");
-        bar.setAttribute("viewBox", "0 0 512 512");
-        bar.appendChild(path)
 
         loginDiv.appendChild(bar);
         loginDiv.appendChild(login);
         loginDiv.appendChild(signup);
-
 
 
         //menu
@@ -155,14 +149,14 @@ class customHeader extends HTMLElement {
         shadow.appendChild(nav)
         shadow.appendChild(loginDiv)
         shadow.appendChild(menuDiv)
+        menu = this.shadowRoot.querySelector('.menu');
 
-
-        menu = document.querySelector(".menu")
     }
 
+    
+    
 
 }
-
 
 
 

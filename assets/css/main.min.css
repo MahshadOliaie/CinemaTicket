@@ -64,17 +64,12 @@ a {
 #bars {
   display: none;
   cursor: pointer;
-  fill: rgb(176, 143, 181);
+  width: 30px;
+  height: 30px;
 }
 @media screen and (max-width: 700px) {
   #bars {
     display: inline-block;
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #bars {
-    font-size: 25px;
   }
 }
 
@@ -189,6 +184,13 @@ a {
   transition: 400ms;
 }
 
+.loginMenu {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,13 +207,6 @@ a {
   padding: 20px 40px;
   -webkit-box-shadow: 1px 1px 1rem black;
           box-shadow: 1px 1px 1rem black;
-}
-
-.loginMenu {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .swiper-pagination span {
@@ -1218,17 +1213,18 @@ img.huechange {
   overflow: hidden;
   padding: 20px;
   background: rgba(0, 0, 0, 0.1);
-  height: 100vh;
+  height: 90vh;
 }
 
 .card-carousel {
-  --card-width: 90%;
-  --card-max-width: 300px;
-  --card-height: 82vh;
+  --card-width: 80%;
+  --card-max-width: 200px;
+  --card-height: 550px;
   --carousel-min-width: 600px;
   z-index: 1;
   position: relative;
   margin: 0 auto;
+  margin-top: 5%;
   width: 100%;
   height: var(--card-height);
   min-width: var(--carousel-min-width);
@@ -1311,11 +1307,7 @@ img.huechange {
 
 .card {
   overflow: hidden;
-}
-@media screen and (max-width: 650px) {
-  .card {
-    font-size: small;
-  }
+  font-size: small;
 }
 .card__title {
   margin: 0;
@@ -1337,7 +1329,7 @@ img.huechange {
 
 .barcode {
   position: absolute;
-  bottom: 0;
+  bottom: -18px;
   left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1349,5 +1341,5 @@ img.huechange {
       -ms-flex-pack: center;
           justify-content: center;
   border-top: 1px dashed;
-  padding-top: 20px;
+  padding: 15px;
 }/*# sourceMappingURL=main.min.css.map */

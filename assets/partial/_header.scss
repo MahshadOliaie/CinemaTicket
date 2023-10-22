@@ -18,17 +18,18 @@
 #bars {
     display: none;
     cursor: pointer;
-    fill: rgb(176, 143, 181);
+    width: 30px;
+    height: 30px;
 
     @media screen and (max-width:700px) {
         display: inline-block;
-        font-size: 30px;
     }
 
-    @media screen and (max-width:400px) {
-        font-size: 25px;
-    }
+    // @media screen and (max-width:400px) {
+    //     font-size: 25px;
+    // }
 }
+
 
 
 
@@ -135,6 +136,10 @@
 }
 
 
+.loginMenu {
+    flex-direction: column;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -149,8 +154,5 @@
 
 }
 
-.loginMenu {
-    flex-direction: column;
-}
 
 

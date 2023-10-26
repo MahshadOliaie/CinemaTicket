@@ -35,6 +35,11 @@ function handleLocation() {
         routBookMovie(newPathname, booking, cinemaName, time, roomNumber, totalSeats, reservedSeats)
     }
 
+    if (pathname == "/login") {
+        login();
+    }
+
+
     else {
         let newPathname = pathname.replaceAll("/", "")
         getOneMovie(newPathname)

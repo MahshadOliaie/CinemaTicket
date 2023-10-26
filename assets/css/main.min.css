@@ -126,6 +126,7 @@ a {
   border: 1px solid;
   color: rgb(169, 73, 169);
   padding: 10px;
+  cursor: pointer;
 }
 @media screen and (max-width: 700px) {
   #login,
@@ -146,6 +147,8 @@ a {
   padding: 5px 10px;
   width: 80px;
   text-align: center;
+  cursor: pointer;
+  margin: 2px;
 }
 #Menu__login:hover,
 #Menu__signup:hover {

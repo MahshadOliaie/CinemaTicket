@@ -66,13 +66,12 @@ class customHeader extends HTMLElement {
         const loginDiv = document.createElement("div");
         loginDiv.setAttribute("class", "login HeaderDiv");
 
-        const login = document.createElement("a");
-        login.setAttribute("href", "#");
+        const login = document.createElement("p");
         login.setAttribute("id", "login");
+        login.setAttribute("onclick", "login()");
         login.textContent = "Log In";
 
-        const signup = document.createElement("a");
-        signup.setAttribute("href", "#");
+        const signup = document.createElement("p");
         signup.setAttribute("id", "signup");
         signup.textContent = "Sign Up";
 
@@ -125,13 +124,12 @@ class customHeader extends HTMLElement {
         const loginDivMenu = document.createElement("div");
         loginDivMenu.setAttribute("class", "login HeaderDiv loginMenu");
 
-        const loginMenu = document.createElement("a");
-        loginMenu.setAttribute("href", "#");
+        const loginMenu = document.createElement("p");
         loginMenu.setAttribute("id", "Menu__login");
+        loginMenu.setAttribute("onclick", "login()");
         loginMenu.textContent = "Log In";
 
-        const signupMenu = document.createElement("a");
-        signupMenu.setAttribute("href", "#");
+        const signupMenu = document.createElement("p");
         signupMenu.setAttribute("id", "Menu__signup");
         signupMenu.textContent = "Sign Up";
 

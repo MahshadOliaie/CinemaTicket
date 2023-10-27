@@ -74,7 +74,6 @@ function signUp() {
           </div>
 
 
-
           <div class="mt-2">
               <input id="password" placeholder="Password" name="password" type="password" required
                   class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 bg-purple-200 focus:ring-2 focus:ring-inset focus:ring-purple-400 sm:text-sm sm:leading-6 px-2">
@@ -83,13 +82,13 @@ function signUp() {
 
           <div class="mt-2">
               <input id="confirm-password" type="password" name="confirm_password" placeholder="Confirm Password"
-                  required
+                  required onkeyup="checkPass()"
                   class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 bg-purple-200 focus:ring-2 focus:ring-inset focus:ring-purple-400 sm:text-sm sm:leading-6 px-2">
           </div>
 
           <div>
-              <button type="submit"
-                  class="flex w-full justify-center rounded-md bg-purple-500 px-3 py-1.5 text-sm font-semibold leading-6 text-purple-100 shadow-sm hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500">Create
+              <button type="submit" id="submit"
+                  class="disable flex w-full justify-center rounded-md bg-purple-500 px-3 py-1.5 text-sm font-semibold leading-6 text-purple-100 shadow-sm hover:bg-purple-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-500">Create
                   Account</button>
           </div>
       </form>

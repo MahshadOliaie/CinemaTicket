@@ -39,6 +39,10 @@ function handleLocation() {
         login();
     }
 
+    if (pathname == "/signUp") {
+        signUp();
+    }
+
 
     else {
         let newPathname = pathname.replaceAll("/", "")

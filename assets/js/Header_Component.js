@@ -73,6 +73,7 @@ class customHeader extends HTMLElement {
 
         const signup = document.createElement("p");
         signup.setAttribute("id", "signup");
+        signup.setAttribute("onclick", "signUp()");
         signup.textContent = "Sign Up";
 
         const bar = document.createElement("img");
@@ -131,6 +132,7 @@ class customHeader extends HTMLElement {
 
         const signupMenu = document.createElement("p");
         signupMenu.setAttribute("id", "Menu__signup");
+        signupMenu.setAttribute("onclick", "signUp()");
         signupMenu.textContent = "Sign Up";
 
         loginDivMenu.appendChild(loginMenu);

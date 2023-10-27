@@ -1,0 +1,56 @@
+.bgAnimation {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    & span {
+        position: relative;
+        display: block;
+        width: calc(5.25vw - 2px);
+        height: calc(5.25vw - 2px);
+        background: #181818;
+        z-index: 0;
+        transition: 1.5s;
+
+        @media screen and (max-width:750px) {
+            display: none;
+        }
+    
+
+        &:hover {
+            background: rgb(156, 49, 255);
+            transition: 0s;
+        }
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#000, rgb(75, 15, 131), #000);
+        animation: animate 5s linear infinite;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: translateY(-100%);
+        }
+
+        100% {
+            transform: translateY(100%);
+        }
+    }
+}
+
+
+.formBox {
+    position: relative;
+    z-index: 100;
+}

@@ -53,6 +53,7 @@ function checkPass() {
     let pass = document.querySelector("input[id='password']").value;
     if (event.target.value !== pass) {
         event.target.classList.add("bg-red-600")
+        document.querySelector("button[id='submit']").classList.add("disable")
     }else{
         event.target.classList.remove("bg-red-600")
         document.querySelector("button[id='submit']").classList.remove("disable")
